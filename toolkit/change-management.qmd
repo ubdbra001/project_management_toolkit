@@ -1,2 +1,5 @@
 ## Change Management
 This focuses on how a project is modified when the underlying goals, data, or circumstances shift unexpectedly. It involves the process of moving from the original plan to a new approach while the work is already in progress.
+
+### Change log
+This strategy involves maintaining a centralized, chronological repository that documents every modification made to a project’s original scope, timeline, budget, or technical architecture. Each entry captures critical metadata, including a description of the change, the rationale behind it, the requester, the approval status, and the cascading impact on other project components. By serving as an audit trail and a single source of truth, this framework prevents undocumented scope creep, ensures accountability, and provides team members and stakeholders with immediate clarity on how and why the project's direction has shifted.
