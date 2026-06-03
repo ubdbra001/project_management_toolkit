@@ -1,0 +1,20 @@
+## Scope Management
+This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It involves the process for deciding whether to add new requests or features that were not part of the original plan.
+
+### Eisenhower Matrix (?)
+
+### MoSCoW Prioritization
+
+### The 100-Dollar Test
+
+### SMART Goals
+
+### Minimum Viable Product (MVP) Definition
+
+### Definition of Done (DoD)
+
+### In-Scope / Out-of-Scope Table (?)
+
+### Scope statement
+
+### Deliverables definition
