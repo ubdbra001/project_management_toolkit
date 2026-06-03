@@ -1,0 +1,22 @@
+## Timeline Management
+This focuses on scheduling individual tasks and setting target dates for the work. It involves mapping out a realistic schedule to ensure that different phases coordinate properly with major project milestones.
+
+### Gantt Chart
+
+### Sprint planning
+
+### Backward Mapping (Reverse Scheduling)
+
+### Roadmaps
+
+### Swimlane timelines
+
+### Kanban timelines
+
+### Critical path method
+
+### PERT Chart
+
+### Planning poker
+
+### Timeboxing
