@@ -1,7 +1,7 @@
 ---
 title: "Scope Management"
 ---
-This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It involves the process for deciding whether to add new requests or features that were not part of the original plan.
+This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It also involves the process of evaluating new requests and adapting the original plan when circumstances shift unexpectedly.
 
 ### Eisenhower Matrix
 This strategy categorizes tasks, requests, or features into a two-by-two matrix based on their urgency and importance. By plotting items across these dual axes, teams distinguish between critical baseline requirements that demand immediate execution and strategic objectives that can be systematically scheduled, delegated, or excluded entirely from the immediate project scope.

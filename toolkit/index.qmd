@@ -9,7 +9,7 @@ These are not definitive and may not directly map onto your experiences of manag
 This involves identifying the specific goals and practical needs of a project before the hands-on work begins. It focuses on taking broad ideas and turning them into a clear list of what actually needs to be built or achieved.
 
 ## Scope Management
-This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It involves the process for deciding whether to add new requests or features that were not part of the original plan.
+This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It also involves the process of evaluating new requests and adapting the original plan when circumstances shift unexpectedly.
 
 ## Task Planning
 This involves taking a project and dividing it into smaller individual tasks. It focuses on how these pieces of work are organized so they can be assigned and tracked through to completion.
