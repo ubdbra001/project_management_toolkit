@@ -1,0 +1,20 @@
+## Task Planning
+This involves taking a project and dividing it into smaller individual tasks. It focuses on how these pieces of work are organized so they can be assigned and tracked through to completion.
+
+### Work Breakdown structure
+
+### Epics
+
+### Task Dependency Mapping
+
+### Working backwards to plan
+
+### Work packages
+
+### Scope Relationship Diagrams
+
+### Estimating duration
+
+### Backlogs
+
+### Bucket size planning
