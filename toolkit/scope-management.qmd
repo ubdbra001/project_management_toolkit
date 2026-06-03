@@ -1,20 +1,29 @@
 ## Scope Management
 This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It involves the process for deciding whether to add new requests or features that were not part of the original plan.
 
-### Eisenhower Matrix (?)
+### Eisenhower Matrix
+This strategy categorizes tasks, requests, or features into a two-by-two matrix based on their urgency and importance. By plotting items across these dual axes, teams distinguish between critical baseline requirements that demand immediate execution and strategic objectives that can be systematically scheduled, delegated, or excluded entirely from the immediate project scope.
 
 ### MoSCoW Prioritization
+This strategy categorizes project requirements into four distinct tiers based on their necessity: Must have, Should have, Could have, and Won't have. Teams evaluate each proposed feature against project constraints and objectives to allocate them into these specific quadrants. This classification establishes a clear hierarchy of implementation, defining the mandatory baseline requirements while explicitly identifying elements that are excluded from the current lifecycle.
 
 ### The 100-Dollar Test
+This strategy, also known as cumulative voting, requires stakeholders to distribute a conceptual budget of 100 units (dollars or points) across a list of proposed project requirements. Participants allocate higher amounts to the items they view as critical and lesser amounts, or nothing, to lower-priority elements. The final, aggregated distribution provides a quantitative matrix that ranks the requirements based on collective resource allocation, defining what falls within the project scope.
 
 ### SMART Goals
+This strategy involves defining project boundaries by structuring objectives around five specific criteria: Specific, Measurable, Achievable, Relevant, and Time-bound. Each target is formulated to eliminate ambiguity by defining precise metrics for success, realistic resource constraints, and explicit deadlines. By establishing these clearly quantified parameters, the framework provides a binary standard for determining whether a proposed task or change request aligns with the original project scope.
 
 ### Minimum Viable Product (MVP) Definition
+This strategy focuses on identifying the absolute minimum set of features required to deploy a functional version of a system or product to early users or evaluators. Teams isolate core functionality from secondary enhancements, stripping away any non-essential requirements that can be deferred to later iterations. By establishing this lean functional baseline, the strategy sets a strict boundary for the initial project scope, preventing scope creep and allowing for empirical data collection based on real-world usage.
 
 ### Definition of Done (DoD)
+This strategy establishes a shared, standardized checklist of criteria that every feature or deliverable must satisfy before it is officially considered complete. The criteria encompass technical, quality, and regulatory benchmarks—such as passing specific automated tests, undergoing peer review, and meeting documentation standards. By enforcing a uniform standard of completion, this framework prevents incomplete work from being accepted into the project scope and ensures all deliverables meet the required baseline before closure.
 
-### In-Scope / Out-of-Scope Table (?)
+### In-Scope / Out-of-Scope Table
+This strategy involves creating a binary matrix that explicitly categorizes project elements, features, and tasks into two distinct groups: those that are strictly included within the current project lifecycle (In-Scope) and those that are intentionally excluded (Out-of-Scope). By placing these items side-by-side, the table eliminates ambiguity regarding project boundaries and serves as a direct visual baseline for evaluating change requests and preventing scope creep.
 
 ### Scope statement
+This strategy involves generating a formal, comprehensive document that clearly outlines the specific boundaries, deliverables, and objectives of a project. It explicitly details the functional and technical requirements included within the project lifecycle, while systematically listing the tasks, features, and systems that are excluded. By establishing these definitive baselines, the document serves as the primary reference point for evaluating future change requests and preventing unauthorized scope creep.
 
 ### Deliverables definition
+This strategy involves identifying, defining, and cataloging the tangible or intangible outputs that must be produced and verified to complete the project. Each item is specified with distinct technical parameters, quality metrics, and acceptance criteria that govern its successful creation. By mapping out these precise end-products, the framework establishes a concrete basis for scope verification, ensuring that project effort remains strictly aligned with the required outputs.
