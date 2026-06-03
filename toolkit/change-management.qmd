@@ -1,4 +1,6 @@
-## Change Management
+---
+title: "Change Management"
+---
 This focuses on how a project is modified when the underlying goals, data, or circumstances shift unexpectedly. It involves the process of moving from the original plan to a new approach while the work is already in progress.
 
 ### Change log

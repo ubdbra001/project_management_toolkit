@@ -1,4 +1,6 @@
-## Risk Management
+---
+title: "Risk Management"
+---
 This involves identifying potential problems, technical hurdles, or delays that could impact the work. It also includes preparing alternative plans and responses to address these issues if they actually occur.
 
 

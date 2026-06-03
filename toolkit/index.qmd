@@ -1,5 +1,6 @@
-# The Toolkit
-
+---
+title: "The Toolkit"
+---
 The project manageent toolkit is broken down into 10 broadly different categories, designed to give you an idea fo the strategies available for approaching.
 
 These are not definitive and may not directly map onto your experiences of managing projects.

@@ -1,4 +1,6 @@
-## Project Knowledge Management
+---
+title: "Project Knowledge Management"
+---
 This focuses on the continuous accumulation and organization of project knowledge, including context, decisions, methods, code, and data. The aim is to create an accessible history that enables others to effectively understand, reproduce, and engage with the work at any stage.
 
 ### Wikis

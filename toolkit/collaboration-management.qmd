@@ -1,4 +1,6 @@
-## Collaboration Management
+---
+title: "Collaboration Management"
+---
 This covers how you interact with the people who have a direct interest in your work, such as project leads, collaborators, or end-users. It involves keeping them updated and ensuring everyone agrees on the project's goals and overall direction.
 
 

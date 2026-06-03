@@ -1,4 +1,6 @@
-## Task Planning
+---
+title: "Task Planning"
+---
 This involves taking a project and dividing it into smaller individual tasks. It focuses on how these pieces of work are organized so they can be assigned and tracked through to completion.
 
 ### Work Breakdown structure
