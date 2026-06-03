@@ -3,17 +3,25 @@ This involves identifying potential problems, technical hurdles, or delays that 
 
 
 ### RAID Log (Risks, Assumptions, Issues, Dependencies)
+This strategy involves maintaining a centralized, live tracking document that captures four critical variables influencing a project’s success or failure. By categorizing factors into future threats (Risks), foundational presuppositions (Assumptions), current roadblocks (Issues), and critical external links (Dependencies), this framework provides a comprehensive health record for the project. It ensures that the team proactively monitors vulnerabilities, assigns clear ownership for mitigation, and maintains cross-functional alignment on factors outside their direct control.
 
 ### Risk Register/Log
+This strategy involves maintaining a structured, living repository that documents all identified vulnerabilities, technical hurdles, and potential disruptions that could impact a project's timeline, budget, or quality. Each entry includes a description of the threat, its root cause, and a quantitative or qualitative assessment of its probability and impact. This framework ensures that potential problems are systematically logged, assigned to specific owners, paired with proactive mitigation or contingency plans, and regularly reviewed to keep the project resilient against uncertainty.
 
 ### Risk Statements
+This strategy involves using a standardized, cause-and-effect linguistic framework to clearly define and communicate potential project disruptions. Typically structured using an "If [Event] occurs, then [Consequence], resulting in [Impact]" format, this approach removes ambiguity from risk descriptions by explicitly linking a specific vulnerability to its operational fallout. This framework enables team members and stakeholders to objectively evaluate the severity of a threat, separating vague anxieties from concrete risks to drive precise mitigation planning.
 
 ### Risk Matrix
+This strategy involves using a two-dimensional grid to visually evaluate and prioritize project risks based on two primary variables: the likelihood of the event occurring and the operational impact if it does. By intersecting these two values, the matrix maps individual threats into defined priority zones—typically low, medium, and high risk. This framework provides teams with an immediate, scannable prioritization mechanism, ensuring that leadership focus and mitigation resources are automatically directed toward the most critical threats first.
 
 ### SWOT (Strengths, Weaknesses, Opportunities, Threats) risk analysis
+This strategy involves adapting a classic strategic planning framework to identify and evaluate project risks from both internal and external perspectives. By assessing internal capabilities (Strengths and Weaknesses) alongside external market or environmental dynamics (Opportunities and Threats), this approach uncovers vulnerabilities that standard risk logs might miss. This framework helps teams leverage their existing organizational advantages to mitigate potential downsides, while turning external uncertainties into actionable advantages.
 
-### MInd-mapping
+### Mind-mapping risks
+This strategy involves using a non-linear, visual brainstorming framework to uncover, explore, and connect potential project threats and vulnerabilities. Starting with the core project or objective at the center, team members branch out into major risk categories—such as technical, financial, operational, or legal—and continue radiating outward into increasingly granular root causes and sub-risks. This associative framework helps teams break out of linear thinking, map complex interdependencies between different risk factors, and identify hidden single points of failure that standard sequential lists might miss.
 
 ### PESTLE (Political, Economic, Social, Technological, Legal, Environmental) risk analysis
+This strategy involves scanning the macro-environment to identify external macro-economic forces and vulnerabilities that could impact a project's long-term viability or execution. By systematically evaluating potential disruptions across six distinct lenses—Political shifts, Economic indicators, Social trends, Technological disruptions, Legal compliance changes, and Environmental factors—this framework forces teams to look outside their immediate operational bubble. This approach ensures that the project is insulated against broad, large-scale regulatory or societal shifts that standard, internally-focused risk assessments typically overlook.
 
 ### Bow-tie risk analysis
+This strategy involves using a structured, visual diagnostic framework to analyze a single major risk event by mapping out its entire lifecycle from cause to consequence. The approach places the central hazard or "top event" at the center, branching out symmetrically to the left to identify all potential root causes and the preventative controls designed to stop the event, and to the right to map out all potential consequences alongside the reactive mitigation plans designed to minimize damage. This framework provides teams with a clear, dual-focused operational view, ensuring they have robust defenses to both prevent a crisis and effectively handle its aftermath if it does occur.
