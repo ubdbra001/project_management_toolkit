@@ -29,5 +29,5 @@ This involves identifying potential problems, technical hurdles, or delays that 
 ## Project Knowledge Management
 This focuses on the continuous accumulation and organization of project knowledge, including context, decisions, methods, code, and data. The aim is to create an accessible history that enables others to effectively understand, reproduce, and engage with the work at any stage.
 
-## Project Review
-This involves looking back at a completed project or major milestone to evaluate the workflow. It focuses on identifying what went well and pinpointing areas for improvement to use in future work.
+## Project Wrap-up and Review
+This involves finishing up a completed project or major milestone and looking back at how the work went. It focuses on taking care of final closing tasks, and figuring out how to improve your team's workflow for next time.
