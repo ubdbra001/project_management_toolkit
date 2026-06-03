@@ -3,10 +3,14 @@ This covers how you interact with the people who have a direct interest in your 
 
 
 ### Scope validation and acceptance
+This strategy involves a formal process where project leads, collaborators, and end-users systematically review completed project deliverables against the agreed-upon requirements to secure official sign-off. It structures the transition of a deliverable from "internal completion" to "customer acceptance" through formal review sessions, testing, or demonstrations. By mandating explicit validation at key milestones, this framework ensures that the work produced remains directly aligned with stakeholder expectations and secures consensus before moving to subsequent phases.
 
-### RACI chart (Responsible, Accountable, Consulted, Informed)
+### RACI (Responsible, Accountable, Consulted, Informed) chart
+This strategy involves constructing a matrix that maps out project tasks against individual roles to explicitly define organizational governance and communication boundaries. For every deliverable, roles are designated as Responsible (those executing the task), Accountable (the single individual with final decision-making power), Consulted (subject matter experts providing input), or Informed (stakeholders kept updated on progress). This systematic allocation eliminates ambiguity regarding ownership, streamlines decision-making, and structures the flow of collaborative communication.
 
 ### Communication Plan/Agreement
+This strategy establishes a formal framework that details how information will be distributed, managed, and updated throughout the project lifecycle. It defines the specific communication channels (such as progress reports, synchronous meetings, or shared documentation repositories), the frequency of updates, the target audience for each message, and the escalation paths for resolving issues. By creating this structured agreement, teams ensure all stakeholders receive consistent information, aligning expectations and minimizing communication gaps.
 
 ### Approval decision gates
+This strategy implements specific, formal checkpoints throughout the project lifecycle where progress is evaluated against predetermined criteria before work can advance to the subsequent phase. At each gate, designated project leads and key stakeholders review current deliverables, resource usage, and alignment with strategic objectives to make an explicit "go/no-go" decision. This framework ensures governance, maintains quality control, and guarantees that all major participants remain in consensus before committing further resources.
 
