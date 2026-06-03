@@ -1,12 +1,17 @@
 ## Project Knowledge Management
 This focuses on the continuous accumulation and organization of project knowledge, including context, decisions, methods, code, and data. The aim is to create an accessible history that enables others to effectively understand, reproduce, and engage with the work at any stage.
 
-### Wiki
+### Wikis
+This strategy involves maintaining a centralized, collaborative, and dynamic digital repository where team members can continuously document project context, technical methods, architectural decisions, and operational data. Characterized by interconnected pages and intuitive linking structure, a project wiki functions as a living archive that can be edited and searched in real time by all contributors. This framework ensures that historical context and technical institutional knowledge remain accessible and easy to update, preventing critical project insights from becoming siloed in individual communication channels or lost over time.
 
 ### Meeting minutes
+This strategy involves creating an official, written record of every formal project sync to capture critical discussions, rationale, key decisions made, and assigned action items with deadlines. Far from a word-for-word transcript, these summaries extract actionable intelligence from conversations and establish a clear baseline of accountability across the team. This framework ensures that absent stakeholders can quickly get up to speed and provides an unambiguous historical reference point that prevents the recycling of old debates and keeps project execution moving forward.
 
 ### README driven development
+This strategy involves writing the user documentation, system overview, and installation instructions for a piece of software before writing a single line of actual code. By focusing first on the user-facing interface, capabilities, and setup process, the development team is forced to clarify the project's scope, design, and end-user goals upfront rather than letting architectural complexity dictate the product. This framework acts as a low-cost, conceptual prototype that aligns team members on the desired outcomes and prevents the wasted engineering effort often caused by ambiguous or shifting requirements during development.
 
 ### Narrative retrospectives
+This strategy involves capturing lessons learned at the end of a project milestone by weaving the timeline of events, technical challenges, and team dynamics into a cohesive, story-driven post-mortem document. Rather than relying on rigid bulleted lists or standard forms, a narrative retro focuses on the why and how behind project outcomes, documenting the human context, unexpected roadblocks, and critical turning points. This framework creates a highly readable, contextual case study that makes institutional knowledge easier to digest, helps future teams internalize past experiences, and prevents the repeating of historical mistakes.
 
 ### Commit-driven documentation
+This strategy involves treating version control commit messages as a primary, real-time chronicle of a project's technical evolution and design rationale. By enforcing highly descriptive, standardized commit summaries, developers document the why behind every code change, bug fix, or architectural shift directly alongside the specific lines of code being modified. This framework transforms the repository's version history into an automated, immutable timeline, allowing future contributors to seamlessly trace the context and intent of the codebase without needing to cross-reference external, outdated documentation platforms.
