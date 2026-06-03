@@ -3,29 +3,28 @@ title: "Task Planning"
 ---
 This involves taking a project and dividing it into smaller individual tasks. It focuses on how these pieces of work are organized so they can be assigned and tracked through to completion.
 
-### Work Breakdown structure
-This strategy involves decomposing the overall project scope into smaller, more manageable, and hierarchically organized components called work packages. By systematically breaking down a project from the highest level of deliverables to individual tasks, teams can accurately estimate resource requirements, assign clear ownership, and establish a foundational framework for scheduling, budgeting, and tracking progress through to completion.
+### Work Breakdown Structure (WBS)
+This involves breaking down a fixed project from the top down into a complete, structured tree of components and individual tasks. It maps out the entire scope of work up front, working under the assumption that the overall goal and requirements will remain stable. This approach is best for highly structured projects where you need to visualize the entire  layout from day one. By defining every piece of the project early, it makes it easier to assign clear ownership and track completion across a rigid timeline.
 
-### Epics
-This strategy involves defining large, overarching bodies of work that capture a broad project initiative or high-level feature set. Because these initiatives are too massive to be executed in a single iteration, they are systematically decomposed into smaller, actionable user stories or tasks. By grouping related work under an Epic, teams can track long-term progress, manage complex dependencies, and maintain a clear strategic connection between high-level project goals and day-to-day task execution.
+### Work Packages
+This involves bundling related tasks into a single, self-contained unit of work that results in a distinct, measurable deliverable. Each package acts as an isolated mini-project definition, complete with its own clear boundaries, resource constraints, and explicit acceptance criteria. This approach allows an individual or a small team to work completely autonomously on a specific component without needing to map out or understand the entire project's master schedule.
+
+
+### Agile Backlog Management (Epics, Backlogs, & Sprint Planning)
+This connects high-level feature planning, task prioritization, and short-term execution into a single, continuous workflow. Large project goals are broken down into flexible feature buckets called Epics, which are then divided into smaller, actionable tasks and organized in a prioritized list called the Backlog. Regular Sprint Planning sessions are then used to pull the highest-priority tasks from that backlog into short, focused work cycles. This approach allows a developer or team to maintain a clear long-term vision while remaining flexible enough to adjust daily coding priorities based on ongoing testing and feedback.
+
 
 ### Task Dependency Mapping
-This strategy involves identifying, documenting, and sequencing the logical relationships between project activities to establish the precise order of operations. By analyzing how tasks rely on one another—such as defining which activities must finish before a subsequent one can start—teams can construct a realistic workflow, isolate the critical path, and proactively manage scheduling risks or bottlenecks that could disrupt project completion.
-
-### Working backwards to plan
-This strategy begins by establishing a definitive, successful future outcome—such as a specific launch date or a fully realized deliverable—and planning sequentially in reverse to the present day. By starting with the end goal and working backward, teams identify the exact milestones, prerequisites, and critical dependencies required at each preceding stage. This methodology ensures that every planned task is directly tied to a necessary outcome, eliminating extraneous work and creating a highly targeted timeline for execution.
-
-### Work packages
-This strategy involves defining the lowest, most granular level of a Work Breakdown Structure (WBS) that can be reliably scheduled, budgeted, monitored, and assigned to a specific individual or team. A work package groups related tasks into a self-contained unit of work that yields a distinct, measurable deliverable. By managing project scope at this foundational level, teams can establish precise accountability, estimate costs and durations with greater accuracy, and track progress against a concrete set of acceptance criteria.
-
-### Scope Relationship Diagrams
-This strategy involves creating visual models that illustrate the structural, logical, and operational connections between different project components, features, and external dependencies. By mapping how scope elements interact with each other, teams can identify overlapping requirements, visualize data or process flows, and trace how changes to a single component might impact the broader system. This diagrammatic framework provides a holistic view of the project, helping stakeholders understand complex architectures and avoid unintended side effects when modifying the project scope.
-
-### Estimating duration (?)
-This strategy involves calculating the realistic timeframe required to complete individual tasks, work packages, or entire project phases. By utilizing methodologies such as analogous estimating (historical comparison), parametric estimating (statistical modeling), or three-point estimating (optimistic, pessimistic, and most likely scenarios), teams can move past guesswork to establish data-driven schedules. This framework accounts for resource availability, task complexity, and potential constraints, providing a foundational baseline for tracking project health and meeting target deadlines.
-
-### Backlogs
-This strategy involves maintaining a centralized, dynamically prioritized repository of all outstanding tasks, features, enhancements, and bug fixes required to fulfill the project scope. Serving as the single source of truth for the project team, this list is continuously refined and re-ordered based on shifting business value, stakeholder feedback, and resource capacity. By organizing work into a structured backlog, teams can smoothly transition upcoming priorities into immediate execution cycles while keeping long-term requirements visible and managed.
+This involves identifying and documenting the logical relationships between different pieces of work to establish the required order of operations. By mapping out which tasks rely on the completion of others before they can begin, you can logically sequence assignments and prevent team members from getting blocked. This framework exposes structural bottlenecks early on, showing you exactly how a delay in one task will ripple through the rest of your workload. It ensures that your tasks are organized in a realistic, actionable flow before you begin assigning them to a timeline.
 
 ### Bucket size planning
-This strategy involves categorizing tasks, features, or project requirements into high-level, distinct size classifications—such as T-shirt sizes (Small, Medium, Large, Extra Large) or time-based horizons (Now, Next, Later)—rather than assigning precise numerical estimations up front. By using these broad buckets, teams can rapidly gauge the relative effort, complexity, and scale of a large backlog without getting bogged down in premature micro-planning. This framework streamlines high-level capacity planning, manages stakeholder expectations early on, and helps prioritize resource allocation based on a rough order of magnitude.
+This involves categorizing tasks into broad, relative effort classifications—such as T-shirt sizes (Small, Medium, Large)—rather than assigning precise hourly estimates up front. By grouping tasks by their relative complexity and scale early on, teams can rapidly organize and sort a large volume of work without getting bogged down in premature micro-planning. This approach keeps the planning process moving quickly and prevents teams from wasting time over-analyzing details that might change later. It provides just enough structure to help you understand the overall weight of your workload so you can distribute assignments effectively.
+
+### Planning poker
+This involves a consensus-based, gamified technique used by project teams to estimate the relative effort or size of development tasks. Team members use cards with numerical values—typically following a modified Fibonacci sequence—to vote on task complexity simultaneously and independently. By revealing estimates at the same time, this framework prevents anchoring bias, encourages open discussion regarding differing assessments, and helps the team reach a shared agreement on workload expectations.
+
+### Eisenhower Matrix
+This involves organizing a list of tasks into a simple two-by-two grid based on their urgency and importance. By filtering individual tasks across these dual axes, you can instantly prioritize your daily workload and see exactly where to focus your energy first. The framework clearly separates immediate action items from tasks that should be scheduled for later, delegated to others, or dropped entirely. It is a highly practical way to cut through the noise of a chaotic task list and establish a clear, organized path to completion.
+
+### Requirement Traceability Matrix
+This involves creating a structural map that links approved project requirements directly to specific development tasks and testing workflows. By connecting these broad goals to individual pieces of work, the team ensures that every finalized requirement is translated into a trackable action item. This framework prevents critical deliverables from slipping through the cracks and makes it easier to monitor progress from initial assignment to completion.
