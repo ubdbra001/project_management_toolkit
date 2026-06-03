@@ -2,21 +2,29 @@
 This involves identifying the specific goals and practical needs of a project before the hands-on work begins. It focuses on taking broad ideas and turning them into a clear list of what actually needs to be built or achieved.
 
 
-
 ### User Stories
+This strategy defines project requirements by describing specific features from the perspective of the end user. These descriptions are typically structured as short, simple sentences that identify who the user is, what action they need to take, and what objective they are trying to accomplish. This method translates technical goals into functional scenarios that teams use to guide design and development workflows.
 
 ### Stakeholder Interviews
+This strategy involves conducting structured, one-on-one conversations with project participants, clients, and end users to gather detailed information about their specific needs. During these sessions, project managers ask targeted questions to identify functional parameters, operational constraints, and individual expectations for the final outcome. The collected data is then documented and used to establish the baseline criteria for the project plan.
 
 ### Brainstorming
+This strategy involves gathering a group of team members and stakeholders to generate a large volume of ideas and potential solutions for a project. Participants share thoughts freely without immediate evaluation or criticism, allowing for a wide range of possibilities to be documented. The collected ideas are later categorized, reviewed, and filtered to extract the specific requirements that will inform the project scope.
 
 ### Mind mapping
+This strategy utilizes a visual diagram to organize information, ideas, and project requirements around a central theme. Teams place the primary project goal at the center of the map and draw radiating branches to represent major categories, which then break down further into specific sub-tasks or needs. This non-linear layout is used to document complex relationships and dependencies between different components of the project scope.
 
 ### Document(ation) analysis
+This strategy involves the systematic evaluation of source materials, including institutional records, literature reviews, curricula, and policy frameworks, to extract data relevant to a project's parameters. Researchers and managers analyze these texts to identify existing baselines, theoretical constraints, and established methodologies. The data extracted from these documents forms the factual foundation used to define the specific scope and operational criteria of the project.
 
 ### Observation
+This strategy involves directly watching and recording individuals as they perform tasks, follow workflows, or interact with systems in their natural environment. The observer documents specific behaviors, operational processes, and environmental variables without intervening or manipulating the situation. The resulting qualitative and quantitative data provides empirical evidence of actual practices to inform the project's baseline requirements.
 
 ### Prototyping
+This strategy involves constructing preliminary, scaled-down models or digital mockups of a proposed system, product, or process to test specific functional concepts. These iterations range from low-fidelity wireframes to high-fidelity working samples that replicate key aspects of the final design. The model is subjected to evaluation and testing, allowing teams to gather empirical data on design viability and refine operational requirements prior to full-scale development.
 
 ### Storyboarding
+This strategy involves creating a chronological series of illustrations, sketches, or mockups arranged in sequence to visualize the progression of a process, user experience, or narrative. Each panel represents a distinct phase or interaction, mapping out the transition from one step to the next along a defined timeline. This visual blueprint allows teams to trace user pathways and operational flows to identify specific functional requirements before development begins.
 
 ### Code review
+This strategy involves the systematic evaluation of an existing codebase to identify current system logic, architectural constraints, and undocumented operational rules before a new project begins. By analyzing the structure, data models, and dependencies of legacy software, teams extract the technical baseline and functional limitations that the new system must accommodate. The insights gathered from this technical audit are used to define the precise technical requirements and integration parameters for the upcoming project.
