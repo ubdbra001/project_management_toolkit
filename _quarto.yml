@@ -16,8 +16,8 @@ website:
           href: toolkit/requirements.qmd
         - text: "Scope Management"
           href: toolkit/scope-management.qmd
-        - text: "Stakeholder Alignment"
-          href: toolkit/alignment.qmd
+        - text: "Collaboration Management"
+          href: toolkit/collaboration-management.qmd
         - text: "Task Planning"
           href: toolkit/task-planning.qmd
         - text: "Timeline Management"
