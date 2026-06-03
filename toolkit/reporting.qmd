@@ -1,0 +1,20 @@
+## Progress Reporting
+This is the practice of sharing regular updates about the current status of your work. It provides visibility to others regarding which tasks are finished, what is currently being worked on, and what is coming next.
+
+### Project status reports
+
+### Stand-ups (short, high-frequency meetings - 1+ per week)
+
+### Progress review meetings (longer, lower-frequency meetings )
+
+### RAG Status (Red-Amber-Green)
+
+### Kanban Board
+
+### Project Dashboard
+
+### Burndown chart
+
+### Milestone tracking
+
+### Milestone Mini-Retros
