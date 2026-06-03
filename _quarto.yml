@@ -35,8 +35,6 @@ website:
           href: toolkit/reporting.qmd
         - text: "Risk Management"
           href: toolkit/risk-management.qmd
-        - text: "Change Management"
-          href: toolkit/change-management.qmd
         - text: "Project Knowledge Management"
           href: toolkit/knowledge-management.qmd
         - text: "Project Review"

@@ -1,7 +1,7 @@
 ---
 title: "The Toolkit"
 ---
-The project manageent toolkit is broken down into 10 broadly different categories, designed to give you an idea fo the strategies available for approaching.
+The project management toolkit is broken down into 9 broadly different categories, designed to give you an idea fo the strategies available for approaching.
 
 These are not definitive and may not directly map onto your experiences of managing projects.
 
@@ -25,9 +25,6 @@ This covers how you interact with the people who have a direct interest in your 
 
 ## Risk Management
 This involves identifying potential problems, technical hurdles, or delays that could impact the work. It also includes preparing alternative plans and responses to address these issues if they actually occur.
-
-## Change Management
-This focuses on how a project is modified when the underlying goals, data, or circumstances shift unexpectedly. It involves the process of moving from the original plan to a new approach while the work is already in progress.
 
 ## Project Knowledge Management
 This focuses on the continuous accumulation and organization of project knowledge, including context, decisions, methods, code, and data. The aim is to create an accessible history that enables others to effectively understand, reproduce, and engage with the work at any stage.
