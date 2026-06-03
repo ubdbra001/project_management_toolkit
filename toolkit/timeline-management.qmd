@@ -2,21 +2,31 @@
 This focuses on scheduling individual tasks and setting target dates for the work. It involves mapping out a realistic schedule to ensure that different phases coordinate properly with major project milestones.
 
 ### Gantt Chart
+This strategy involves constructing a visual timeline that displays project tasks as horizontal bars mapped across a calendar grid. Each bar illustrates an individual activity's start date, duration, and completion deadline. By laying out task sequences on a shared timeline, this framework identifies overlapping schedules, visualizes sequential dependencies, and tracks overall progress against established project milestones.
 
 ### Sprint planning
+This strategy involves a collaborative session where a project team establishes the specific goals and deliverables for an upcoming time-boxed iteration, typically lasting one to four weeks. During this process, the team reviews the prioritized backlog, determines their capacity for the cycle, and selects the tasks they can realistically commit to completing. The chosen items are then broken down into detailed execution steps, establishing a clear, short-term plan that aligns daily efforts with the broader project timeline.
 
 ### Backward Mapping (Reverse Scheduling)
+This strategy involves setting a fixed deadline for a project deliverable or final milestone and scheduling all necessary preceding tasks in reverse order from that end date toward the present. By determining the latest possible completion times for each activity, this approach establishes a clear sequence of prerequisites and defines the absolute start date required to meet the final deadline.
 
 ### Roadmaps
+This strategy involves creating a high-level, strategic visual overview that maps out the evolution of a project, product, or initiative over time. It communicates the long-term vision, key priorities, major milestones, and anticipated timelines without diving into micro-level daily tasks. This framework aligns stakeholders, connects execution strategies to business goals, and manages expectations regarding when specific major capabilities or phases will be delivered.
 
 ### Swimlane timelines
+This strategy involves organizing a project schedule into distinct, parallel horizontal or vertical lanes to categorize tasks by specific ownership, team, phase, or functional area. By mapping time-based activities within these bounded lanes, this framework visualizes overlapping timelines across multiple workstreams, clarifies which group is responsible for each deliverable, and highlights cross-functional dependencies throughout the lifecycle of the project.
 
 ### Kanban timelines
+This strategy involves adapting the continuous-flow nature of a visual board to a time-based schedule by mapping work items across explicit temporal columns, such as days, weeks, sprints, or specific delivery horizons. While standard boards prioritize current workflow status, this framework overlays scheduling constraints onto the process, allowing teams to limit work-in-progress while maintaining visibility over upcoming deadlines, sequential dependencies, and delivery windows.
 
 ### Critical path method
+This strategy involves identifying the longest sequence of dependent project tasks that must be completed on time for the entire project to finish by its deadline. By calculating the total duration of this specific sequence, this framework determines the minimum timeframe required for project execution and highlights the specific activities that have zero schedule flexibility, meaning any delay in a critical path task directly impacts the final completion date.
 
 ### PERT Chart
+This strategy involves constructing a network diagram that maps out a project's tasks and the specific dependencies between them using a nodal flow structure. By incorporating three distinct time estimates for each activity—optimistic, pessimistic, and most likely—this framework applies statistical probability to determine the expected duration of complex, non-repetitive projects, allowing teams to analyze task sequences, estimate variance, and identify scheduling risks.
 
 ### Planning poker
+This strategy involves a consensus-based, gamified technique used by project teams to estimate the relative effort or size of development tasks. Team members use cards with numerical values—typically following a modified Fibonacci sequence—to vote on task complexity simultaneously and independently. By revealing estimates at the same time, this framework prevents anchoring bias, encourages open discussion regarding differing assessments, and helps the team reach a shared agreement on workload expectations.
 
 ### Timeboxing
+This strategy involves allocating a fixed, unyielding period of time—called a timebox—to a specific task, activity, or phase of work. Instead of allowing an activity to continue until it is completed, the work must cease once the pre-established time limit expires. This framework forces prioritization, discourages perfectionism, and helps teams manage productivity by focusing efforts on delivering the highest possible value within a strict constraint.
