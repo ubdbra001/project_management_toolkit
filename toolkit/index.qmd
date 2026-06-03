@@ -1,35 +1,35 @@
-# The toolkit
+# The Toolkit
 
 The project manageent toolkit is broken down into 10 broadly different categories, designed to give you an idea fo the strategies available for approaching.
 
 These are not definitive and may not directly map onto your experiences of managing projects.
 
-## [Requirements Gathering](requirements.qmd)
+## Requirements Gathering
 This involves identifying the specific goals and practical needs of a project before the hands-on work begins. It focuses on taking broad ideas and turning them into a clear list of what actually needs to be built or achieved.
 
-## [Scope Management](scope-management.qmd)
+## Scope Management
 This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It involves the process for deciding whether to add new requests or features that were not part of the original plan.
 
-## [Task Planning](task-planning.qmd)
+## Task Planning
 This involves taking a project and dividing it into smaller individual tasks. It focuses on how these pieces of work are organized so they can be assigned and tracked through to completion.
 
-## [Timeline Management](timeline-management.qmd)
+## Timeline Management
 This focuses on scheduling individual tasks and setting target dates for the work. It involves mapping out a realistic schedule to ensure that different phases coordinate properly with major project milestones.
 
-## [Progress Reporting](reporting.qmd)
+## Progress Reporting
 This is the practice of sharing regular updates about the current status of your work. It provides visibility to others regarding which tasks are finished, what is currently being worked on, and what is coming next.
 
-## [Collaboration Management](collaboration-management.qmd)
+## Collaboration Management
 This covers how you interact with the people who have a direct interest in your work, such as project leads, collaborators, or end-users. It involves keeping them updated and ensuring everyone agrees on the project's goals and overall direction.
 
-## [Risk Management](risk-management.qmd)
+## Risk Management
 This involves identifying potential problems, technical hurdles, or delays that could impact the work. It also includes preparing alternative plans and responses to address these issues if they actually occur.
 
-## [Change Management](change-management.qmd)
+## Change Management
 This focuses on how a project is modified when the underlying goals, data, or circumstances shift unexpectedly. It involves the process of moving from the original plan to a new approach while the work is already in progress.
 
-## [Project Knowledge Management](knowledge-management.qmd)
+## Project Knowledge Management
 This focuses on the continuous accumulation and organization of project knowledge, including context, decisions, methods, code, and data. The aim is to create an accessible history that enables others to effectively understand, reproduce, and engage with the work at any stage.
 
-## [Project Review](review.qmd)
+## Project Review
 This involves looking back at a completed project or major milestone to evaluate the workflow. It focuses on identifying what went well and pinpointing areas for improvement to use in future work.

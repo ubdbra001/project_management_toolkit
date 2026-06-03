@@ -3,15 +3,24 @@ project:
 
 website:
   title: "Project Management Toolkit"
-  sidebar:
-    style: "floating"
+  page-navigation: true
+  navbar:
     search: true
-    contents:
+    left:
       - text: "Introduction"
         href: index.qmd
-      - section: The Toolkit
+      - text: "The Toolkit"
         href: toolkit/index.qmd
-        contents: 
+      - text: "About the Project"
+        href: about.qmd
+  sidebar:
+    - id: the-toolkit
+      title: "The Toolkit"
+      align: left
+      style: "docked"
+      contents:
+        - text: "Overview"
+          href: toolkit/index.qmd
         - text: "Requirements Gathering"
           href: toolkit/requirements.qmd
         - text: "Scope Management"
@@ -32,12 +41,13 @@ website:
           href: toolkit/knowledge-management.qmd
         - text: "Project Review"
           href: toolkit/review.qmd
-      - text: "About the Project"
-        href: about.qmd
+
+
+
 format:
   html:
     theme:
-      - cosmo
+      - zephyr
       - brand
     css: styles.css
     toc: true
