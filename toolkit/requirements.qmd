@@ -1,0 +1,22 @@
+## Requirements Gathering
+This involves identifying the specific goals and practical needs of a project before the hands-on work begins. It focuses on taking broad ideas and turning them into a clear list of what actually needs to be built or achieved.
+
+
+
+### User Stories
+
+### Stakeholder Interviews
+
+### Brainstorming
+
+### Mind mapping
+
+### Document(ation) analysis
+
+### Observation
+
+### Prototyping
+
+### Storyboarding
+
+### Code review
