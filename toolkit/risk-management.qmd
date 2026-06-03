@@ -1,0 +1,19 @@
+## Risk Management
+This involves identifying potential problems, technical hurdles, or delays that could impact the work. It also includes preparing alternative plans and responses to address these issues if they actually occur.
+
+
+### RAID Log (Risks, Assumptions, Issues, Dependencies)
+
+### Risk Register/Log
+
+### Risk Statements
+
+### Risk Matrix
+
+### SWOT (Strengths, Weaknesses, Opportunities, Threats) risk analysis
+
+### MInd-mapping
+
+### PESTLE (Political, Economic, Social, Technological, Legal, Environmental) risk analysis
+
+### Bow-tie risk analysis
