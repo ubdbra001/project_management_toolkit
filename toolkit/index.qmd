@@ -1,9 +1,9 @@
 ---
 title: "The Toolkit"
 ---
-The project management toolkit is broken down into 9 broadly different categories, designed to give you an idea fo the strategies available for approaching.
+The project management toolkit is broken down into 9 broadly different categories that cover the key areas of project management. Each category contains several strategies that can be used to manage that aspect of a project.
 
-These are not definitive and may not directly map onto your experiences of managing projects.
+Be aware: The categories and strategies listed are not exhaustive, may overlap, and may not map onto your experiences of managing projects. They are intended to be an illustrative starting point.
 
 ## Requirements Gathering
 This involves identifying the specific goals and practical needs of a project before the hands-on work begins. It focuses on taking broad ideas and turning them into a clear list of what actually needs to be built or achieved.
