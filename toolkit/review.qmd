@@ -18,3 +18,6 @@ This involves gathering the team at the end of a project to look back at how the
 
 ### Within-Project Retrospectives
 This involves conducting brief, recurring reflection sessions at regular intervals—such as the end of a two-week sprint or a major project checkpoint—while the work is still actively ongoing. Unlike end-of-project reviews, these quick sessions evaluate recent workflows, tools, and team communication to make immediate, real-time adjustments. By capturing insights while memories are completely fresh, the team can rapidly iron out kinks and improve execution for the very next phase of work. It serves as a continuous improvement loop that keeps the current project on track and responsive to change.
+
+### Approval decision gates
+This involves implementation of specific, formal checkpoints throughout the project lifecycle where progress is evaluated against predetermined criteria before work can advance to the next phase. At each gate, designated project leads and key stakeholders review current deliverables, resource usage, and alignment with strategic objectives to make an explicit "go/no-go" decision. This framework ensures governance, maintains quality control, and guarantees that all major participants remain in consensus before committing further resources.

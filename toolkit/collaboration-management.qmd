@@ -12,9 +12,6 @@ This involves creating a clear, shared agreement that outlines each team member'
 ### Communication Plan/Agreement
 This establishes a formal framework that details how information will be distributed, managed, and updated throughout the project lifecycle. It defines the specific communication channels (such as progress reports, synchronous meetings, or shared documentation repositories), the frequency of updates, the target audience for each message, and the escalation paths for resolving issues. By creating this structured agreement, teams ensure all stakeholders receive consistent information, aligning expectations and minimizing communication gaps.
 
-### Approval decision gates
-This involves implementation of specific, formal checkpoints throughout the project lifecycle where progress is evaluated against predetermined criteria before work can advance to the next phase. At each gate, designated project leads and key stakeholders review current deliverables, resource usage, and alignment with strategic objectives to make an explicit "go/no-go" decision. This framework ensures governance, maintains quality control, and guarantees that all major participants remain in consensus before committing further resources.
-
 ### Stakeholder Map
 This involves creating a simple visual chart that identifies everyone affected by your project and groups them by how involved they need to be. It helps you see at a glance who needs detailed, regular updates(e.g. core research partners or project leads) versus who only needs a high-level summary every few months. By mapping this out early, you can tailor your updates to the right people without overwhelming anyone with unnecessary emails. It is a highly effective artefact for managing your time and ensuring no critical partner is accidentally left in the dark.
 
