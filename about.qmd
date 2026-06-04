@@ -1,5 +1,7 @@
 ---
-title: "About"
+title: "About this Project"
 ---
 
-About this site
+This project is being undertaken by Dr. Daniel Brady, a Research Software Engineer at the University of Sheffield.
+
+The project is supported by funding from [DisCouRSE](https://discourse-network.github.io/): [Understanding Project Management Tool Effectiveness in Diverse dRTP Contexts](https://discourse-network.github.io/projects/1-26-project-tool-dRTP/)
