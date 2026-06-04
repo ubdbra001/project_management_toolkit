@@ -6,7 +6,7 @@ This involves taking a project and dividing it into smaller individual tasks. It
 ### Work Breakdown Structure (WBS)
 This involves breaking down a fixed project from the top down into a complete, structured tree of components and individual tasks. It maps out the entire scope of work up front, working under the assumption that the overall goal and requirements will remain stable. This approach is best for highly structured projects where you need to visualize the entire  layout from day one. By defining every piece of the project early, it makes it easier to assign clear ownership and track completion across a rigid timeline.
 
-### Work Packages
+### Work Package definitions
 This involves bundling related tasks into a single, self-contained unit of work that results in a distinct, measurable deliverable. Each package acts as an isolated mini-project definition, complete with its own clear boundaries, resource constraints, and explicit acceptance criteria. This approach allows an individual or a small team to work completely autonomously on a specific component without needing to map out or understand the entire project's master schedule.
 
 

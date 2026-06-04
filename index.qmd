@@ -1,5 +1,7 @@
 ---
-title: "Project Management Toolkit for digital Technical Research Professionals (dRTPs)"
+title: "Project Management Toolkit for Digital Technical Research Professionals (dRTPs)"
 ---
 
-Placeholder text
+Large-scale project management frameworks (for example, Agile) are typically presented as complete, end-to-end systems. However, adopting an entire framework is often not feasible given the diversity of work contexts faced by Digital Research Technical Professionals (dRTPs). While individual conceptual tools from these frameworks can be selected to address specific project management challenges, developing the experience needed to choose and apply these tools effectively is currently time-intensive.
+
+This toolkit will provide practical guidance on selecting appropriate project management strategies for specific research projects and will act as a flexible entry point to project management training. In doing so, it will support dRTPs in developing essential skills for career progression and leadership within technical research roles.
