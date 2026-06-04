@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>scope-management – Project Management Toolkit</title>
+<title>Scope Management – Project Management Toolkit</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../toolkit/collaboration-management.html" rel="next">
+<link href="../toolkit/requirements.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -42,13 +44,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-94b323657c735dfe3b1bf6ebb2c33a55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-9eb93d32eb8a7ab752e9100207b99c4e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -75,121 +77,116 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Project Management Toolkit</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Introduction</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../toolkit/index.html" aria-current="page"> 
+<span class="menu-text">The Toolkit</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About the Project</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/scope-management.html">Scope Management</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/scope-management.html">Scope Management</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Project Management Toolkit</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
+  <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The Toolkit</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/requirements.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Requirements Gathering</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/scope-management.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Scope Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../toolkit/alignment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Stakeholder Alignment</span></a>
+  <a href="../toolkit/collaboration-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Collaboration Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/task-planning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Task Planning</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/timeline-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Timeline Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/reporting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Progess Reporting</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/risk-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Risk Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/change-management.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Change Management</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/knowledge-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project Knowledge Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Review</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About the Project</span></a>
+  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Review and Wrap-Up</span></a>
   </div>
 </li>
     </ul>
@@ -197,17 +194,89 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#moscow-prioritization" id="toc-moscow-prioritization" class="nav-link active" data-scroll-target="#moscow-prioritization">MoSCoW Prioritization</a></li>
+  <li><a href="#the-100-dollar-test" id="toc-the-100-dollar-test" class="nav-link" data-scroll-target="#the-100-dollar-test">The 100-Dollar Test</a></li>
+  <li><a href="#smart-goals" id="toc-smart-goals" class="nav-link" data-scroll-target="#smart-goals">SMART Goals</a></li>
+  <li><a href="#minimum-viable-product-mvp-definition" id="toc-minimum-viable-product-mvp-definition" class="nav-link" data-scroll-target="#minimum-viable-product-mvp-definition">Minimum Viable Product (MVP) Definition</a></li>
+  <li><a href="#scope-definition" id="toc-scope-definition" class="nav-link" data-scroll-target="#scope-definition">Scope Definition</a></li>
+  <li><a href="#completion-criteria" id="toc-completion-criteria" class="nav-link" data-scroll-target="#completion-criteria">Completion Criteria</a></li>
+  <li><a href="#scope-relationship-diagrams" id="toc-scope-relationship-diagrams" class="nav-link" data-scroll-target="#scope-relationship-diagrams">Scope Relationship Diagrams</a></li>
+  <li><a href="#scope-verification" id="toc-scope-verification" class="nav-link" data-scroll-target="#scope-verification">Scope verification</a></li>
+  <li><a href="#change-impact-analysis" id="toc-change-impact-analysis" class="nav-link" data-scroll-target="#change-impact-analysis">Change Impact Analysis</a></li>
+  <li><a href="#change-log" id="toc-change-log" class="nav-link" data-scroll-target="#change-log">Change Log</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/scope-management.html">Scope Management</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Scope Management</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<p>This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It also involves the process of evaluating new requests and adapting the original plan when circumstances shift unexpectedly.</p>
+<section id="moscow-prioritization" class="level3">
+<h3 class="anchored" data-anchor-id="moscow-prioritization">MoSCoW Prioritization</h3>
+<p>This categorizes project requirements into four distinct tiers based on their necessity: Must have, Should have, Could have, and Won’t have. Teams evaluate each proposed feature against project constraints and objectives to allocate them into these specific quadrants. This classification establishes a clear hierarchy of implementation, defining the mandatory baseline requirements while explicitly identifying elements that are excluded from the current lifecycle.</p>
+</section>
+<section id="the-100-dollar-test" class="level3">
+<h3 class="anchored" data-anchor-id="the-100-dollar-test">The 100-Dollar Test</h3>
+<p>This involves giving stakeholders a fake budget of 100 dollars or points to distribute across a list of proposed project features. Participants allocate more money to the features they care about most and less money, or nothing, to lower-priority tasks. Adding up everyone’s spending creates a clear, numbered ranking that shows exactly what the group values most. This framework makes it easy to see which features are essential and which ones can be left out of the project scope.</p>
+</section>
+<section id="smart-goals" class="level3">
+<h3 class="anchored" data-anchor-id="smart-goals">SMART Goals</h3>
+<p>This involves defining project boundaries by structuring objectives around five specific criteria: Specific, Measurable, Achievable, Relevant, and Time-bound. Each target is formulated to eliminate ambiguity by defining precise metrics for success, realistic resource constraints, and explicit deadlines. By establishing these clearly quantified parameters, the framework provides a binary standard for determining whether a proposed task or change request aligns with the original project scope.</p>
+</section>
+<section id="minimum-viable-product-mvp-definition" class="level3">
+<h3 class="anchored" data-anchor-id="minimum-viable-product-mvp-definition">Minimum Viable Product (MVP) Definition</h3>
+<p>This focuses on identifying the absolute minimum set of features required to deploy a functional version of a system or product to early users or evaluators. Teams isolate core functionality from secondary enhancements, stripping away any non-essential requirements that can be deferred to later iterations. By establishing this lean functional baseline, the strategy sets a strict boundary for the initial project scope, preventing scope creep and allowing for empirical data collection based on real-world usage.</p>
+</section>
+<section id="scope-definition" class="level3">
+<h3 class="anchored" data-anchor-id="scope-definition">Scope Definition</h3>
+<p>This involves explicitly establishing the boundaries of a project by documenting exactly what is included in the work and what is intentionally excluded. Teams can format this information as a formal narrative document or a visual two-column table to eliminate ambiguity around the project’s limits. By setting these clear baselines early on, it becomes easier to evaluate future change requests and prevent the project from expanding beyond its original goals.</p>
+</section>
+<section id="completion-criteria" class="level3">
+<h3 class="anchored" data-anchor-id="completion-criteria">Completion Criteria</h3>
+<p>This establishes a precise checklist of technical benchmarks, quality metrics, and documentation requirements that a piece of work must satisfy before it is officially considered finished. Whether referred to as a Definition of Done or Acceptance Criteria, the core purpose is to define a shared, objective standard for success. By enforcing these uniform benchmarks, the team prevents incomplete work from being integrated and ensures all deliverables meet the required baseline before the project moves forward.</p>
+</section>
+<section id="scope-relationship-diagrams" class="level3">
+<h3 class="anchored" data-anchor-id="scope-relationship-diagrams">Scope Relationship Diagrams</h3>
+<p>This involves creating visual models that illustrate the structural, logical, and operational connections between different project components, features, and external dependencies. By mapping how scope elements interact with each other, teams can identify overlapping requirements, visualize data or process flows, and trace how changes to a single component might impact the broader system. This diagrammatic framework provides a holistic view of the project, helping stakeholders understand complex architectures and avoid unintended side effects when modifying the project scope.</p>
+</section>
+<section id="scope-verification" class="level3">
+<h3 class="anchored" data-anchor-id="scope-verification">Scope verification</h3>
+<p>This involves having project leads, collaborators, and users systematically review completed deliverables to confirm they match the original requirements. Through formal testing or live demonstrations, the team checks the work together to get official approval and sign-off on the final product. Mandating this explicit review at key milestones ensures that what you are building stays directly aligned with everyone’s expectations. It serves as a vital gatekeeping step that prevents misunderstandings before you move on to the next phase or wrap up the project.</p>
+</section>
+<section id="change-impact-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="change-impact-analysis">Change Impact Analysis</h3>
+<p>This involves evaluating the potential consequences of a proposed change on the existing project boundaries before the modification is approved. The team assesses how the new request will affect current deliverables, resource capacity, and technical dependencies. This evaluation helps project leads determine whether the value of the pivot outweighs the disruption to the active workflow.</p>
+</section>
+<section id="change-log" class="level3">
+<h3 class="anchored" data-anchor-id="change-log">Change Log</h3>
+<p>This involves maintaining a chronological record that documents modifications made to the project’s original scope, timeline, or technical architecture. Each entry notes the specific adjustment, the reason for the update, and how it impacts other project components. This ongoing log provides the team with a clear view of how the project boundaries have evolved over time as the plan adjusted to new circumstances.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -610,6 +679,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../toolkit/requirements.html" class="pagination-link" aria-label="Requirements Gathering">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Requirements Gathering</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../toolkit/collaboration-management.html" class="pagination-link" aria-label="Collaboration Management">
+        <span class="nav-page-text">Collaboration Management</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

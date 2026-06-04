@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>reporting – Project Management Toolkit</title>
+<title>Progress Reporting – Project Management Toolkit</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../toolkit/risk-management.html" rel="next">
+<link href="../toolkit/timeline-management.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -42,13 +44,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-94b323657c735dfe3b1bf6ebb2c33a55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-9eb93d32eb8a7ab752e9100207b99c4e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -75,121 +77,116 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Project Management Toolkit</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Introduction</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../toolkit/index.html" aria-current="page"> 
+<span class="menu-text">The Toolkit</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About the Project</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/reporting.html">Progess Reporting</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/reporting.html">Progess Reporting</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Project Management Toolkit</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
+  <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The Toolkit</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/requirements.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Requirements Gathering</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/scope-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Scope Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../toolkit/alignment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Stakeholder Alignment</span></a>
+  <a href="../toolkit/collaboration-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Collaboration Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/task-planning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Task Planning</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/timeline-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Timeline Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/reporting.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Progess Reporting</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/risk-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Risk Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/change-management.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Change Management</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/knowledge-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project Knowledge Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Review</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About the Project</span></a>
+  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Review and Wrap-Up</span></a>
   </div>
 </li>
     </ul>
@@ -197,17 +194,79 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-status-reports" id="toc-project-status-reports" class="nav-link active" data-scroll-target="#project-status-reports">Project status reports</a></li>
+  <li><a href="#asynchronous-check-ins" id="toc-asynchronous-check-ins" class="nav-link" data-scroll-target="#asynchronous-check-ins">Asynchronous Check-ins</a></li>
+  <li><a href="#stand-ups" id="toc-stand-ups" class="nav-link" data-scroll-target="#stand-ups">Stand-ups</a></li>
+  <li><a href="#progress-review-meetings" id="toc-progress-review-meetings" class="nav-link" data-scroll-target="#progress-review-meetings">Progress review meetings</a></li>
+  <li><a href="#rag-status-red-amber-green" id="toc-rag-status-red-amber-green" class="nav-link" data-scroll-target="#rag-status-red-amber-green">RAG Status (Red-Amber-Green)</a></li>
+  <li><a href="#kanban-board" id="toc-kanban-board" class="nav-link" data-scroll-target="#kanban-board">Kanban Board</a></li>
+  <li><a href="#project-dashboard" id="toc-project-dashboard" class="nav-link" data-scroll-target="#project-dashboard">Project Dashboard</a></li>
+  <li><a href="#burndown-chart" id="toc-burndown-chart" class="nav-link" data-scroll-target="#burndown-chart">Burndown chart</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/reporting.html">Progess Reporting</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Progress Reporting</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<p>This is the practice of sharing regular updates about the current status of your work. It provides visibility to others regarding which tasks are finished, what is currently being worked on, and what is coming next.</p>
+<section id="project-status-reports" class="level3">
+<h3 class="anchored" data-anchor-id="project-status-reports">Project status reports</h3>
+<p>This involves distributing written, structured updates to stakeholders at regular intervals to document the overall health of a project. These documents compare your actual progress against the original plan, tracking key items like budget spending and major tasks completed during the reporting period. This framework serves as an official, asynchronous record to flag emerging risks and keep everyone aligned on upcoming priorities without needing a live meeting. It is an ideal way to maintain transparent, consistent communication with outside supervisors or clients.</p>
+</section>
+<section id="asynchronous-check-ins" class="level3">
+<h3 class="anchored" data-anchor-id="asynchronous-check-ins">Asynchronous Check-ins</h3>
+<p>This involves setting up a dedicated digital channel where team members post brief text updates about their work on their own schedule, rather than holding a live meeting. Contributors use a shared space to write a few bullet points about what they accomplished, what they are doing next, and any hurdles blocking their progress. This framework allows busy professionals to stay completely aligned and spot opportunities to help each other without interrupting their deep work time. It is an excellent event alternative for keeping decentralized or busy teams connected with minimal scheduling friction.</p>
+</section>
+<section id="stand-ups" class="level3">
+<h3 class="anchored" data-anchor-id="stand-ups">Stand-ups</h3>
+<p>This involves conducting brief, high-frequency synchronization meetings held multiple times per week where team members share concise updates to maintain continuous momentum. During these short sessions, each participant highlights what they finished since the last sync, what they will focus on next, and any active problems blocking their progress. This framework ensures the immediate team stays completely aligned, promotes shared accountability, and catches blockers before they turn into major delays. It is designed to be fast and operational, often taking less than fifteen minutes.</p>
+</section>
+<section id="progress-review-meetings" class="level3">
+<h3 class="anchored" data-anchor-id="progress-review-meetings">Progress review meetings</h3>
+<p>This involves scheduling formal, face-to-face or virtual checkpoints where the project team and key stakeholders gather to evaluate performance against long-term strategic goals. Unlike quick daily updates, these sessions focus on broader milestones and reviewing finished deliverables to ensure they meet quality standards. The meeting provides a collaborative space to look at the project’s overall trajectory, address systemic bottlenecks, and make high-level decisions about changing direction. It ensures that the people funding or directing the project have a direct say in its momentum.</p>
+</section>
+<section id="rag-status-red-amber-green" class="level3">
+<h3 class="anchored" data-anchor-id="rag-status-red-amber-green">RAG Status (Red-Amber-Green)</h3>
+<p>This involves using a traffic-light visual system to immediately communicate the health, urgency, and performance level of a project, workstream, or specific task. Each color corresponds to a defined state of stability: Green indicates execution is proceeding smoothly on schedule and budget, Amber warns of emerging issues or variances that require close monitoring, and Red flags critical blocks or deviations that require immediate intervention. This framework simplifies complex reporting data into an easily digestible format, allowing stakeholders to quickly identify where resources and leadership support are most urgently needed.</p>
+</section>
+<section id="kanban-board" class="level3">
+<h3 class="anchored" data-anchor-id="kanban-board">Kanban Board</h3>
+<p>This uses a dynamic visual board to map out and track the real-time status of individual tasks as they move through a workflow. Work items are displayed as cards that progress across vertical columns, typically representing stages like “To Do,” “In Progress,” and “Done.” This layout gives the entire team immediate visibility into exactly what is finished, what is being worked on right now, and what is coming up next. It is a highly practical framework for spotting workflow bottlenecks and sharing progress without needing to write out formal text updates.</p>
+</section>
+<section id="project-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="project-dashboard">Project Dashboard</h3>
+<p>This involves consolidating multi-layered project data into a centralized, real-time visual interface that tracks high-level progress and performance metrics. By aggregating diverse data points—such as task completion rates, budget consumption, resource utilization, and timeline health—into scannable charts and indicators, this framework translates complex operational details into immediate, actionable insights. This allows project managers and executives to monitor variance, identify trends, and make data-driven decisions at a single glance.</p>
+</section>
+<section id="burndown-chart" class="level3">
+<h3 class="anchored" data-anchor-id="burndown-chart">Burndown chart</h3>
+<p>This involves using a graphical representation to track the amount of work remaining in a project or time-limited iteration against the time available to complete it. The chart typically features a downward-sloping “ideal work remaining” line as a baseline, plotted alongside the actual remaining effort—often measured in hours or story points—over successive days. This framework provides teams with an immediate, data-driven visualization of their current velocity, making it easy to see if they are on track to meet their deadline or if the scope needs adjustment.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -610,6 +669,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../toolkit/timeline-management.html" class="pagination-link" aria-label="Timeline Management">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Timeline Management</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../toolkit/risk-management.html" class="pagination-link" aria-label="Risk Management">
+        <span class="nav-page-text">Risk Management</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

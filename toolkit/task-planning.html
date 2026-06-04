@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>task-planning – Project Management Toolkit</title>
+<title>Task Planning – Project Management Toolkit</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../toolkit/timeline-management.html" rel="next">
+<link href="../toolkit/collaboration-management.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -42,13 +44,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-94b323657c735dfe3b1bf6ebb2c33a55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-9eb93d32eb8a7ab752e9100207b99c4e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -75,121 +77,116 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Project Management Toolkit</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Introduction</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../toolkit/index.html" aria-current="page"> 
+<span class="menu-text">The Toolkit</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About the Project</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/task-planning.html">Task Planning</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/task-planning.html">Task Planning</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Project Management Toolkit</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
+  <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The Toolkit</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/requirements.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Requirements Gathering</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/scope-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Scope Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../toolkit/alignment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Stakeholder Alignment</span></a>
+  <a href="../toolkit/collaboration-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Collaboration Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/task-planning.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Task Planning</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/timeline-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Timeline Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/reporting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Progess Reporting</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/risk-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Risk Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/change-management.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Change Management</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/knowledge-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project Knowledge Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Review</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About the Project</span></a>
+  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Review and Wrap-Up</span></a>
   </div>
 </li>
     </ul>
@@ -197,17 +194,79 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#work-breakdown-structure-wbs" id="toc-work-breakdown-structure-wbs" class="nav-link active" data-scroll-target="#work-breakdown-structure-wbs">Work Breakdown Structure (WBS)</a></li>
+  <li><a href="#work-packages" id="toc-work-packages" class="nav-link" data-scroll-target="#work-packages">Work Packages</a></li>
+  <li><a href="#agile-backlog-management-epics-backlogs-sprint-planning" id="toc-agile-backlog-management-epics-backlogs-sprint-planning" class="nav-link" data-scroll-target="#agile-backlog-management-epics-backlogs-sprint-planning">Agile Backlog Management (Epics, Backlogs, &amp; Sprint Planning)</a></li>
+  <li><a href="#task-dependency-mapping" id="toc-task-dependency-mapping" class="nav-link" data-scroll-target="#task-dependency-mapping">Task Dependency Mapping</a></li>
+  <li><a href="#bucket-size-planning" id="toc-bucket-size-planning" class="nav-link" data-scroll-target="#bucket-size-planning">Bucket size planning</a></li>
+  <li><a href="#planning-poker" id="toc-planning-poker" class="nav-link" data-scroll-target="#planning-poker">Planning poker</a></li>
+  <li><a href="#eisenhower-matrix" id="toc-eisenhower-matrix" class="nav-link" data-scroll-target="#eisenhower-matrix">Eisenhower Matrix</a></li>
+  <li><a href="#requirement-traceability-matrix" id="toc-requirement-traceability-matrix" class="nav-link" data-scroll-target="#requirement-traceability-matrix">Requirement Traceability Matrix</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/task-planning.html">Task Planning</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Task Planning</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<p>This involves taking a project and dividing it into smaller individual tasks. It focuses on how these pieces of work are organized so they can be assigned and tracked through to completion.</p>
+<section id="work-breakdown-structure-wbs" class="level3">
+<h3 class="anchored" data-anchor-id="work-breakdown-structure-wbs">Work Breakdown Structure (WBS)</h3>
+<p>This involves breaking down a fixed project from the top down into a complete, structured tree of components and individual tasks. It maps out the entire scope of work up front, working under the assumption that the overall goal and requirements will remain stable. This approach is best for highly structured projects where you need to visualize the entire layout from day one. By defining every piece of the project early, it makes it easier to assign clear ownership and track completion across a rigid timeline.</p>
+</section>
+<section id="work-packages" class="level3">
+<h3 class="anchored" data-anchor-id="work-packages">Work Packages</h3>
+<p>This involves bundling related tasks into a single, self-contained unit of work that results in a distinct, measurable deliverable. Each package acts as an isolated mini-project definition, complete with its own clear boundaries, resource constraints, and explicit acceptance criteria. This approach allows an individual or a small team to work completely autonomously on a specific component without needing to map out or understand the entire project’s master schedule.</p>
+</section>
+<section id="agile-backlog-management-epics-backlogs-sprint-planning" class="level3">
+<h3 class="anchored" data-anchor-id="agile-backlog-management-epics-backlogs-sprint-planning">Agile Backlog Management (Epics, Backlogs, &amp; Sprint Planning)</h3>
+<p>This connects high-level feature planning, task prioritization, and short-term execution into a single, continuous workflow. Large project goals are broken down into flexible feature buckets called Epics, which are then divided into smaller, actionable tasks and organized in a prioritized list called the Backlog. Regular Sprint Planning sessions are then used to pull the highest-priority tasks from that backlog into short, focused work cycles. This approach allows a developer or team to maintain a clear long-term vision while remaining flexible enough to adjust daily coding priorities based on ongoing testing and feedback.</p>
+</section>
+<section id="task-dependency-mapping" class="level3">
+<h3 class="anchored" data-anchor-id="task-dependency-mapping">Task Dependency Mapping</h3>
+<p>This involves identifying and documenting the logical relationships between different pieces of work to establish the required order of operations. By mapping out which tasks rely on the completion of others before they can begin, you can logically sequence assignments and prevent team members from getting blocked. This framework exposes structural bottlenecks early on, showing you exactly how a delay in one task will ripple through the rest of your workload. It ensures that your tasks are organized in a realistic, actionable flow before you begin assigning them to a timeline.</p>
+</section>
+<section id="bucket-size-planning" class="level3">
+<h3 class="anchored" data-anchor-id="bucket-size-planning">Bucket size planning</h3>
+<p>This involves categorizing tasks into broad, relative effort classifications—such as T-shirt sizes (Small, Medium, Large)—rather than assigning precise hourly estimates up front. By grouping tasks by their relative complexity and scale early on, teams can rapidly organize and sort a large volume of work without getting bogged down in premature micro-planning. This approach keeps the planning process moving quickly and prevents teams from wasting time over-analyzing details that might change later. It provides just enough structure to help you understand the overall weight of your workload so you can distribute assignments effectively.</p>
+</section>
+<section id="planning-poker" class="level3">
+<h3 class="anchored" data-anchor-id="planning-poker">Planning poker</h3>
+<p>This involves a consensus-based, gamified technique used by project teams to estimate the relative effort or size of development tasks. Team members use cards with numerical values—typically following a modified Fibonacci sequence—to vote on task complexity simultaneously and independently. By revealing estimates at the same time, this framework prevents anchoring bias, encourages open discussion regarding differing assessments, and helps the team reach a shared agreement on workload expectations.</p>
+</section>
+<section id="eisenhower-matrix" class="level3">
+<h3 class="anchored" data-anchor-id="eisenhower-matrix">Eisenhower Matrix</h3>
+<p>This involves organizing a list of tasks into a simple two-by-two grid based on their urgency and importance. By filtering individual tasks across these dual axes, you can instantly prioritize your daily workload and see exactly where to focus your energy first. The framework clearly separates immediate action items from tasks that should be scheduled for later, delegated to others, or dropped entirely. It is a highly practical way to cut through the noise of a chaotic task list and establish a clear, organized path to completion.</p>
+</section>
+<section id="requirement-traceability-matrix" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-traceability-matrix">Requirement Traceability Matrix</h3>
+<p>This involves creating a structural map that links approved project requirements directly to specific development tasks and testing workflows. By connecting these broad goals to individual pieces of work, the team ensures that every finalized requirement is translated into a trackable action item. This framework prevents critical deliverables from slipping through the cracks and makes it easier to monitor progress from initial assignment to completion.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -610,6 +669,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../toolkit/collaboration-management.html" class="pagination-link" aria-label="Collaboration Management">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Collaboration Management</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../toolkit/timeline-management.html" class="pagination-link" aria-label="Timeline Management">
+        <span class="nav-page-text">Timeline Management</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>alignment – Project Management Toolkit</title>
+<title>Collaboration Management – Project Management Toolkit</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../toolkit/task-planning.html" rel="next">
+<link href="../toolkit/scope-management.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -42,13 +44,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-94b323657c735dfe3b1bf6ebb2c33a55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-9eb93d32eb8a7ab752e9100207b99c4e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -75,121 +77,116 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Project Management Toolkit</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Introduction</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../toolkit/index.html" aria-current="page"> 
+<span class="menu-text">The Toolkit</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About the Project</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/alignment.html">Stakeholder Alignment</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/collaboration-management.html">Collaboration Management</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Project Management Toolkit</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
+  <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The Toolkit</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/requirements.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Requirements Gathering</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/scope-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Scope Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../toolkit/alignment.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Stakeholder Alignment</span></a>
+  <a href="../toolkit/collaboration-management.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Collaboration Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/task-planning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Task Planning</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/timeline-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Timeline Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/reporting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Progess Reporting</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/risk-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Risk Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/change-management.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Change Management</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/knowledge-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project Knowledge Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Review</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About the Project</span></a>
+  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Review and Wrap-Up</span></a>
   </div>
 </li>
     </ul>
@@ -197,17 +194,64 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#meeting-minutes" id="toc-meeting-minutes" class="nav-link active" data-scroll-target="#meeting-minutes">Meeting Minutes</a></li>
+  <li><a href="#roles-and-responsibilities-charter" id="toc-roles-and-responsibilities-charter" class="nav-link" data-scroll-target="#roles-and-responsibilities-charter">Roles and Responsibilities Charter</a></li>
+  <li><a href="#communication-planagreement" id="toc-communication-planagreement" class="nav-link" data-scroll-target="#communication-planagreement">Communication Plan/Agreement</a></li>
+  <li><a href="#stakeholder-map" id="toc-stakeholder-map" class="nav-link" data-scroll-target="#stakeholder-map">Stakeholder Map</a></li>
+  <li><a href="#working-agreements-team-charters" id="toc-working-agreements-team-charters" class="nav-link" data-scroll-target="#working-agreements-team-charters">Working Agreements (Team Charters)</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/alignment.html">Stakeholder Alignment</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Collaboration Management</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<p>This covers how you interact with the people who have a direct interest in your work, such as project leads, collaborators, or end-users. It involves keeping them updated and ensuring everyone agrees on the project’s goals and overall direction.</p>
+<section id="meeting-minutes" class="level3">
+<h3 class="anchored" data-anchor-id="meeting-minutes">Meeting Minutes</h3>
+<p>This involves writing down a quick, accurate record of what was discussed, decided, and assigned during a team conversation. Instead of a long transcript, this document acts as a clear summary that highlights final agreements and lists exactly who is responsible for which next steps. Sharing these notes right after a meeting ensures that anyone who missed the discussion can catch up instantly and keeps everyone on the same page. It serves as a reliable reference point that prevents misunderstandings and keeps the team moving forward together.</p>
+</section>
+<section id="roles-and-responsibilities-charter" class="level3">
+<h3 class="anchored" data-anchor-id="roles-and-responsibilities-charter">Roles and Responsibilities Charter</h3>
+<p>This involves creating a clear, shared agreement that outlines each team member’s specific duties and areas of focus on a project. It explicitly maps out who is leading particular tasks, who owns different pieces of work, and who should be consulted before major changes are made. By clarifying these expectations early on, you eliminate confusion about who to turn to for specific technical questions or decisions. It acts as a helpful guide that keeps the team coordinated while allowing individuals to work independently and efficiently.</p>
+</section>
+<section id="communication-planagreement" class="level3">
+<h3 class="anchored" data-anchor-id="communication-planagreement">Communication Plan/Agreement</h3>
+<p>This establishes a formal framework that details how information will be distributed, managed, and updated throughout the project lifecycle. It defines the specific communication channels (such as progress reports, synchronous meetings, or shared documentation repositories), the frequency of updates, the target audience for each message, and the escalation paths for resolving issues. By creating this structured agreement, teams ensure all stakeholders receive consistent information, aligning expectations and minimizing communication gaps.</p>
+</section>
+<section id="stakeholder-map" class="level3">
+<h3 class="anchored" data-anchor-id="stakeholder-map">Stakeholder Map</h3>
+<p>This involves creating a simple visual chart that identifies everyone affected by your project and groups them by how involved they need to be. It helps you see at a glance who needs detailed, regular updates(e.g.&nbsp;core research partners or project leads) versus who only needs a high-level summary every few months. By mapping this out early, you can tailor your updates to the right people without overwhelming anyone with unnecessary emails. It is a highly effective artefact for managing your time and ensuring no critical partner is accidentally left in the dark.</p>
+</section>
+<section id="working-agreements-team-charters" class="level3">
+<h3 class="anchored" data-anchor-id="working-agreements-team-charters">Working Agreements (Team Charters)</h3>
+<p>This involves hosting a short kickoff session where the team explicitly decides and writes down how they want to behave and work together. The group agrees on practical ground rules, such as core working hours, how quickly people are expected to reply to messages, and how to respectfully handle disagreements. By co-creating these cultural norms before the work gets intense, you prevent friction and build immediate trust among contributors. It serves as a foundational artefact that keeps team dynamics smooth, respectful, and predictable.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -610,6 +654,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../toolkit/scope-management.html" class="pagination-link" aria-label="Scope Management">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Scope Management</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../toolkit/task-planning.html" class="pagination-link" aria-label="Task Planning">
+        <span class="nav-page-text">Task Planning</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

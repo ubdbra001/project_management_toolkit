@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>risk-management – Project Management Toolkit</title>
+<title>Risk Management – Project Management Toolkit</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../toolkit/knowledge-management.html" rel="next">
+<link href="../toolkit/reporting.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -42,13 +44,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-94b323657c735dfe3b1bf6ebb2c33a55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-9eb93d32eb8a7ab752e9100207b99c4e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -75,121 +77,116 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Project Management Toolkit</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Introduction</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../toolkit/index.html" aria-current="page"> 
+<span class="menu-text">The Toolkit</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About the Project</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/risk-management.html">Risk Management</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/risk-management.html">Risk Management</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Project Management Toolkit</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
+  <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../toolkit/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The Toolkit</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/requirements.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Requirements Gathering</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/scope-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Scope Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../toolkit/alignment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Stakeholder Alignment</span></a>
+  <a href="../toolkit/collaboration-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Collaboration Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/task-planning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Task Planning</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/timeline-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Timeline Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/reporting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Progess Reporting</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/risk-management.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Risk Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/change-management.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Change Management</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../toolkit/knowledge-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project Knowledge Management</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Review</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About the Project</span></a>
+  <a href="../toolkit/review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Review and Wrap-Up</span></a>
   </div>
 </li>
     </ul>
@@ -197,17 +194,79 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#raid-log-risks-assumptions-issues-dependencies" id="toc-raid-log-risks-assumptions-issues-dependencies" class="nav-link active" data-scroll-target="#raid-log-risks-assumptions-issues-dependencies">RAID Log (Risks, Assumptions, Issues, Dependencies)</a></li>
+  <li><a href="#risk-registerlog" id="toc-risk-registerlog" class="nav-link" data-scroll-target="#risk-registerlog">Risk Register/Log</a></li>
+  <li><a href="#risk-statements" id="toc-risk-statements" class="nav-link" data-scroll-target="#risk-statements">Risk Statements</a></li>
+  <li><a href="#risk-matrix" id="toc-risk-matrix" class="nav-link" data-scroll-target="#risk-matrix">Risk Matrix</a></li>
+  <li><a href="#mind-mapping-risks" id="toc-mind-mapping-risks" class="nav-link" data-scroll-target="#mind-mapping-risks">Mind-mapping risks</a></li>
+  <li><a href="#swot-strengths-weaknesses-opportunities-threats-risk-analysis" id="toc-swot-strengths-weaknesses-opportunities-threats-risk-analysis" class="nav-link" data-scroll-target="#swot-strengths-weaknesses-opportunities-threats-risk-analysis">SWOT (Strengths, Weaknesses, Opportunities, Threats) risk analysis</a></li>
+  <li><a href="#pestle-political-economic-social-technological-legal-environmental-risk-analysis" id="toc-pestle-political-economic-social-technological-legal-environmental-risk-analysis" class="nav-link" data-scroll-target="#pestle-political-economic-social-technological-legal-environmental-risk-analysis">PESTLE (Political, Economic, Social, Technological, Legal, Environmental) risk analysis</a></li>
+  <li><a href="#bow-tie-risk-analysis" id="toc-bow-tie-risk-analysis" class="nav-link" data-scroll-target="#bow-tie-risk-analysis">Bow-tie risk analysis</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../toolkit/index.html">The Toolkit</a></li><li class="breadcrumb-item"><a href="../toolkit/risk-management.html">Risk Management</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Risk Management</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<p>This involves identifying potential problems, technical hurdles, or delays that could impact the work. It also includes preparing alternative plans and responses to address these issues if they actually occur.</p>
+<section id="raid-log-risks-assumptions-issues-dependencies" class="level3">
+<h3 class="anchored" data-anchor-id="raid-log-risks-assumptions-issues-dependencies">RAID Log (Risks, Assumptions, Issues, Dependencies)</h3>
+<p>This involves maintaining a centralized, live tracking document that captures four critical variables influencing a project’s success or failure. By categorizing factors into future threats (Risks), foundational presuppositions (Assumptions), current roadblocks (Issues), and critical external links (Dependencies), this framework provides a comprehensive health record for the project. It ensures that the team proactively monitors vulnerabilities, assigns clear ownership for mitigation, and maintains cross-functional alignment on factors outside their direct control.</p>
+</section>
+<section id="risk-registerlog" class="level3">
+<h3 class="anchored" data-anchor-id="risk-registerlog">Risk Register/Log</h3>
+<p>This involves maintaining a structured, living repository that documents all identified vulnerabilities, technical hurdles, and potential disruptions that could impact a project’s timeline, budget, or quality. Each entry includes a description of the threat, its root cause, and a quantitative or qualitative assessment of its probability and impact. This framework ensures that potential problems are systematically logged, assigned to specific owners, paired with proactive mitigation or contingency plans, and regularly reviewed to keep the project resilient against uncertainty.</p>
+</section>
+<section id="risk-statements" class="level3">
+<h3 class="anchored" data-anchor-id="risk-statements">Risk Statements</h3>
+<p>This involves using a standardized, cause-and-effect linguistic framework to clearly define and communicate potential project disruptions. Typically structured using an “If [Event] occurs, then [Consequence], resulting in [Impact]” format, this approach removes ambiguity from risk descriptions by explicitly linking a specific vulnerability to its operational fallout. This framework enables team members and stakeholders to objectively evaluate the severity of a threat, separating vague anxieties from concrete risks to drive precise mitigation planning.</p>
+</section>
+<section id="risk-matrix" class="level3">
+<h3 class="anchored" data-anchor-id="risk-matrix">Risk Matrix</h3>
+<p>This involves using a two-dimensional grid to visually evaluate and prioritize project risks based on two primary variables: the likelihood of the event occurring and the operational impact if it does. By intersecting these two values, the matrix maps individual threats into defined priority zones—typically low, medium, and high risk. This framework provides teams with an immediate, scannable prioritization mechanism, ensuring that leadership focus and mitigation resources are automatically directed toward the most critical threats first.</p>
+</section>
+<section id="mind-mapping-risks" class="level3">
+<h3 class="anchored" data-anchor-id="mind-mapping-risks">Mind-mapping risks</h3>
+<p>This involves using a non-linear, visual brainstorming framework to uncover, explore, and connect potential project threats and vulnerabilities. Starting with the core project or objective at the center, team members branch out into major risk categories—such as technical, financial, operational, or legal—and continue radiating outward into increasingly granular root causes and sub-risks. This associative framework helps teams break out of linear thinking, map complex interdependencies between different risk factors, and identify hidden single points of failure that standard sequential lists might miss.</p>
+</section>
+<section id="swot-strengths-weaknesses-opportunities-threats-risk-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="swot-strengths-weaknesses-opportunities-threats-risk-analysis">SWOT (Strengths, Weaknesses, Opportunities, Threats) risk analysis</h3>
+<p>This involves adapting a classic strategic planning framework to identify and evaluate project risks from both internal and external perspectives. By assessing internal capabilities (Strengths and Weaknesses) alongside external market or environmental dynamics (Opportunities and Threats), this approach uncovers vulnerabilities that standard risk logs might miss. This framework helps teams leverage their existing organizational advantages to mitigate potential downsides, while turning external uncertainties into actionable advantages.</p>
+</section>
+<section id="pestle-political-economic-social-technological-legal-environmental-risk-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="pestle-political-economic-social-technological-legal-environmental-risk-analysis">PESTLE (Political, Economic, Social, Technological, Legal, Environmental) risk analysis</h3>
+<p>This strategy involves scanning the outside world to identify large-scale trends and risks that could impact your project’s long-term success. By looking at your work through six distinct lenses—Political, Economic, Social, Technological, Legal, and Environmental—the team is forced to look beyond their immediate daily tasks. This approach catches broad regulatory changes, societal shifts, or technological disruptions that standard, internal risk assessments usually miss. It serves as an essential tool for protecting your project against unexpected external shifts before they cause major disruptions.</p>
+</section>
+<section id="bow-tie-risk-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="bow-tie-risk-analysis">Bow-tie risk analysis</h3>
+<p>This strategy involves using a structured, visual diagram to analyze a single major risk event by mapping out its entire path from cause to consequence. The approach places the central hazard in the middle, branching out to the left to show potential root causes and the preventive steps designed to stop it, and to the right to map out the potential fallout alongside recovery plans designed to minimize damage. This framework provides teams with a clear, dual-focused view, ensuring they have robust defenses to both prevent a crisis and effectively handle its aftermath if it does occur.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -610,6 +669,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../toolkit/reporting.html" class="pagination-link" aria-label="Progess Reporting">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Progess Reporting</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../toolkit/knowledge-management.html" class="pagination-link" aria-label="Project Knowledge Management">
+        <span class="nav-page-text">Project Knowledge Management</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
