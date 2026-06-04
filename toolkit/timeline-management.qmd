@@ -1,0 +1,25 @@
+---
+title: "Timeline Management"
+---
+This focuses on scheduling individual tasks and setting target dates for the work. It involves mapping out a realistic schedule to ensure that different phases coordinate properly with major project milestones.
+
+### Gantt Chart
+This involves constructing a visual timeline that displays project tasks as horizontal bars mapped across a calendar grid. Each bar illustrates an individual activity's start date, duration, and completion deadline. By laying out task sequences on a shared timeline, this framework identifies overlapping schedules, visualizes sequential dependencies, and tracks overall progress against established project milestones.
+
+### Backward Mapping (Reverse Scheduling)
+This involves setting a fixed deadline for a final project deliverable and scheduling all necessary tasks in reverse order from that end date back to the present. By working backward, you can easily determine the latest possible completion times for each activity and figure out exactly when work must begin. This approach prevents teams from running out of time at the end of a project by ensuring every prerequisite has a realistic slot on the calendar.
+
+### Roadmaps
+This involves creating a high-level visual overview that maps out the major phases and long-term direction of a project over a calendar timeline. Instead of tracking micro-level daily tasks, it focuses on communicating key priorities, release windows, and major milestones to keep everyone aligned on the big picture. This framework acts as a strategic guide, making it easy for stakeholders to see at a glance when major capabilities or project phases are expected to wrap up. It bridges the gap between your overall project goals and the specific schedules needed to get there.
+
+### Swimlane timelines
+This involves organizing a project schedule into distinct, parallel horizontal or vertical lanes to categorize tasks by specific ownership, team, phase, or functional area. By mapping time-based activities within these bounded lanes, this framework visualizes overlapping timelines across multiple workstreams, clarifies which group is responsible for each deliverable, and highlights cross-functional dependencies throughout the lifecycle of the project.
+
+### Kanban timelines
+This adapts the visual nature of a standard Kanban board by organizing tasks across explicit time-based columns, such as weeks, months, or quarters. While traditional boards only track the current status of work, this timeline layout helps teams look ahead and balance upcoming delivery windows with their immediate capacity. It allows developers to maintain a steady, continuous workflow while providing clear visibility into upcoming deadlines and sequential dependencies. This framework offers a flexible alternative for teams who need to manage calendar deadlines without adopting rigid scheduling charts.
+
+### Critical path method
+This involves identifying the longest sequence of dependent tasks that must be completed on time for the entire project to finish by its deadline. By calculating the total duration of this specific chain of activities, you can determine the absolute minimum timeframe required to complete the project. This framework highlights the specific tasks that have zero schedule flexibility, meaning any delay in a critical path task will directly push back the final completion date.
+
+### PERT (Program Evaluation and Review Technique) Chart
+This involves constructing a network diagram that maps out a project's tasks as a flow of connected steps to analyze the total time needed to finish. It uses a unique statistical approach by combining three separate time estimates for each activity—an optimistic, a pessimistic, and a most likely duration—to calculate a realistic timeline. By mapping these probabilities visually, the framework helps you identify hidden scheduling risks and predict the overall project completion date with greater accuracy. It is highly effective for complex, first-time projects where individual task durations are uncertain and difficult to guess.

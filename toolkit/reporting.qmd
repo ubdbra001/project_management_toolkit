@@ -1,0 +1,28 @@
+---
+title: "Progress Reporting"
+---
+This is the practice of sharing regular updates about the current status of your work. It provides visibility to others regarding which tasks are finished, what is currently being worked on, and what is coming next.
+
+### Project status reports
+This involves distributing written, structured updates to stakeholders at regular intervals to document the overall health of a project. These documents compare your actual progress against the original plan, tracking key items like budget spending and major tasks completed during the reporting period. This framework serves as an official, asynchronous record to flag emerging risks and keep everyone aligned on upcoming priorities without needing a live meeting. It is an ideal way to maintain transparent, consistent communication with outside supervisors or clients.
+
+### Asynchronous Check-ins
+This involves setting up a dedicated digital channel where team members post brief text updates about their work on their own schedule, rather than holding a live meeting. Contributors use a shared space to write a few bullet points about what they accomplished, what they are doing next, and any hurdles blocking their progress. This framework allows busy professionals to stay completely aligned and spot opportunities to help each other without interrupting their deep work time. It is an excellent event alternative for keeping decentralized or busy teams connected with minimal scheduling friction.
+
+### Stand-ups
+This involves conducting brief, high-frequency synchronization meetings held multiple times per week where team members share concise updates to maintain continuous momentum. During these short sessions, each participant highlights what they finished since the last sync, what they will focus on next, and any active problems blocking their progress. This framework ensures the immediate team stays completely aligned, promotes shared accountability, and catches blockers before they turn into major delays. It is designed to be fast and operational, often taking less than fifteen minutes.
+
+### Progress review meetings
+This involves scheduling formal, face-to-face or virtual checkpoints where the project team and key stakeholders gather to evaluate performance against long-term strategic goals. Unlike quick daily updates, these sessions focus on broader milestones and reviewing finished deliverables to ensure they meet quality standards. The meeting provides a collaborative space to look at the project's overall trajectory, address systemic bottlenecks, and make high-level decisions about changing direction. It ensures that the people funding or directing the project have a direct say in its momentum.
+
+### RAG Status (Red-Amber-Green)
+This involves using a traffic-light visual system to immediately communicate the health, urgency, and performance level of a project, workstream, or specific task. Each color corresponds to a defined state of stability: Green indicates execution is proceeding smoothly on schedule and budget, Amber warns of emerging issues or variances that require close monitoring, and Red flags critical blocks or deviations that require immediate intervention. This framework simplifies complex reporting data into an easily digestible format, allowing stakeholders to quickly identify where resources and leadership support are most urgently needed.
+
+### Kanban Board
+This uses a dynamic visual board to map out and track the real-time status of individual tasks as they move through a workflow. Work items are displayed as cards that progress across vertical columns, typically representing stages like "To Do," "In Progress," and "Done." This layout gives the entire team immediate visibility into exactly what is finished, what is being worked on right now, and what is coming up next. It is a highly practical framework for spotting workflow bottlenecks and sharing progress without needing to write out formal text updates.
+
+### Project Dashboard
+This involves consolidating multi-layered project data into a centralized, real-time visual interface that tracks high-level progress and performance metrics. By aggregating diverse data points—such as task completion rates, budget consumption, resource utilization, and timeline health—into scannable charts and indicators, this framework translates complex operational details into immediate, actionable insights. This allows project managers and executives to monitor variance, identify trends, and make data-driven decisions at a single glance.
+
+### Burndown chart
+This involves using a graphical representation to track the amount of work remaining in a project or time-limited iteration against the time available to complete it. The chart typically features a downward-sloping "ideal work remaining" line as a baseline, plotted alongside the actual remaining effort—often measured in hours or story points—over successive days. This framework provides teams with an immediate, data-driven visualization of their current velocity, making it easy to see if they are on track to meet their deadline or if the scope needs adjustment.

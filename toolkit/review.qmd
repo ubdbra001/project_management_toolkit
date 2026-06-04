@@ -1,0 +1,23 @@
+---
+title: "Project Review and Wrap-up"
+---
+
+This involves finishing up a completed project or major milestone and looking back at how the work went. It focuses on taking care of final closing tasks, and figuring out how to improve your team's workflow for next time.
+
+### Project Closure Checklist
+This involves using a standardized, mandatory list of operational verification steps to ensure a project or major milestone is formally and systematically wound down. The checklist covers critical administrative, legal, and operational actions, including handing over final deliverables to stakeholders, archiving source code and assets, releasing resources, and officially closing out budgets and contracts. By enforcing a rigid, step-by-step sign-off process, this framework guarantees that no loose ends are left untied, intellectual property is properly secured, and the team achieves clean, unambiguous closure before transitioning to the next initiative.
+
+### Project Closure Report
+This involves writing a concise, high-level summary document that officially logs the final results and outcomes of your project before it is archived. Instead of focusing on day-to-day technical details, this report connects your final deliverables directly to your original project goals, noting what was successfully built, what goals were met, and where all final files are stored. By documenting what you achieved and listing any limitations or unfinished ideas, you create an official record of the project's success. This ensures you can confidently close the books on the project while leaving a clear trail for anyone who needs to look up the results in the future.
+
+### Root Cause Analysis (The 5 Whys)
+This involves diagnosing the underlying failure behind a project roadblock or workflow issue by repeatedly asking the question "Why?"—typically five times—to drill beneath the surface-level symptoms of a problem. By systematically tracing the causal chain from the immediate, visible mishap back through the operational and systemic layers that allowed it to occur, the team avoids the trap of implementing superficial, temporary fixes. This framework forces a shift in focus from blaming individual mistakes to identifying and correcting flawed processes, ensuring that the team implements permanent, structural solutions that prevent the exact same issue from recurring in future milestones.
+
+### Post-Mortem Meeting/Retrospective
+This involves gathering the team at the end of a project to look back at how the work went. The primary focus is to create an open, honest space where everyone can discuss what succeeded, what caused delays, and how to improve the overall workflow. To guide the conversation, teams often use simple prompts like sorting feedback into "Start, Stop, Continue" buckets or answering what went well and what went wrong. By bringing these insights together, you create a clear list of lessons learned that will help future projects run much more smoothly.
+
+### Within-Project Retrospectives
+This involves conducting brief, recurring reflection sessions at regular intervals—such as the end of a two-week sprint or a major project checkpoint—while the work is still actively ongoing. Unlike end-of-project reviews, these quick sessions evaluate recent workflows, tools, and team communication to make immediate, real-time adjustments. By capturing insights while memories are completely fresh, the team can rapidly iron out kinks and improve execution for the very next phase of work. It serves as a continuous improvement loop that keeps the current project on track and responsive to change.
+
+### Approval decision gates
+This involves implementation of specific, formal checkpoints throughout the project lifecycle where progress is evaluated against predetermined criteria before work can advance to the next phase. At each gate, designated project leads and key stakeholders review current deliverables, resource usage, and alignment with strategic objectives to make an explicit "go/no-go" decision. This framework ensures governance, maintains quality control, and guarantees that all major participants remain in consensus before committing further resources.

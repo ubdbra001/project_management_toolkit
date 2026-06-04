@@ -1,0 +1,35 @@
+---
+title: "Scope Management"
+---
+This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It also involves the process of evaluating new requests and adapting the original plan when circumstances shift unexpectedly.
+
+
+### MoSCoW Prioritization
+This categorizes project requirements into four distinct tiers based on their necessity: Must have, Should have, Could have, and Won't have. Teams evaluate each proposed feature against project constraints and objectives to allocate them into these specific quadrants. This classification establishes a clear hierarchy of implementation, defining the mandatory baseline requirements while explicitly identifying elements that are excluded from the current lifecycle.
+
+### The 100-Dollar Test
+This involves giving stakeholders a fake budget of 100 dollars or points to distribute across a list of proposed project features. Participants allocate more money to the features they care about most and less money, or nothing, to lower-priority tasks. Adding up everyone's spending creates a clear, numbered ranking that shows exactly what the group values most. This framework makes it easy to see which features are essential and which ones can be left out of the project scope.
+
+### SMART Goals
+This involves defining project boundaries by structuring objectives around five specific criteria: Specific, Measurable, Achievable, Relevant, and Time-bound. Each target is formulated to eliminate ambiguity by defining precise metrics for success, realistic resource constraints, and explicit deadlines. By establishing these clearly quantified parameters, the framework provides a binary standard for determining whether a proposed task or change request aligns with the original project scope.
+
+### Minimum Viable Product (MVP) Definition
+This focuses on identifying the absolute minimum set of features required to deploy a functional version of a system or product to early users or evaluators. Teams isolate core functionality from secondary enhancements, stripping away any non-essential requirements that can be deferred to later iterations. By establishing this lean functional baseline, the strategy sets a strict boundary for the initial project scope, preventing scope creep and allowing for empirical data collection based on real-world usage.
+
+### Scope Definition
+This involves explicitly establishing the boundaries of a project by documenting exactly what is included in the work and what is intentionally excluded. Teams can format this information as a formal narrative document or a visual two-column table to eliminate ambiguity around the project's limits. By setting these clear baselines early on, it becomes easier to evaluate future change requests and prevent the project from expanding beyond its original goals.
+
+### Completion Criteria
+This establishes a precise checklist of technical benchmarks, quality metrics, and documentation requirements that a piece of work must satisfy before it is officially considered finished. Whether referred to as a Definition of Done or Acceptance Criteria, the core purpose is to define a shared, objective standard for success. By enforcing these uniform benchmarks, the team prevents incomplete work from being integrated and ensures all deliverables meet the required baseline before the project moves forward.
+
+### Scope Relationship Diagrams
+This involves creating visual models that illustrate the structural, logical, and operational connections between different project components, features, and external dependencies. By mapping how scope elements interact with each other, teams can identify overlapping requirements, visualize data or process flows, and trace how changes to a single component might impact the broader system. This diagrammatic framework provides a holistic view of the project, helping stakeholders understand complex architectures and avoid unintended side effects when modifying the project scope.
+
+### Scope verification
+This involves having project leads, collaborators, and users systematically review completed deliverables to confirm they match the original requirements. Through formal testing or live demonstrations, the team checks the work together to get official approval and sign-off on the final product. Mandating this explicit review at key milestones ensures that what you are building stays directly aligned with everyone's expectations. It serves as a vital gatekeeping step that prevents misunderstandings before you move on to the next phase or wrap up the project.
+
+### Change Impact Analysis
+This involves evaluating the potential consequences of a proposed change on the existing project boundaries before the modification is approved. The team assesses how the new request will affect current deliverables, resource capacity, and technical dependencies. This evaluation helps project leads determine whether the value of the pivot outweighs the disruption to the active workflow.
+
+### Change Log
+This involves maintaining a chronological record that documents modifications made to the project’s original scope, timeline, or technical architecture. Each entry notes the specific adjustment, the reason for the update, and how it impacts other project components. This ongoing log provides the team with a clear view of how the project boundaries have evolved over time as the plan adjusted to new circumstances.

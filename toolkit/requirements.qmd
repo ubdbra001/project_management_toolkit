@@ -1,0 +1,27 @@
+---
+title: "Requirements Gathering"
+---
+
+This involves identifying the specific goals and practical needs of a project before the hands-on work begins. It focuses on taking broad ideas and turning them into a clear list of what actually needs to be built or achieved.
+
+
+### User Stories
+This defines project requirements by describing specific features from the perspective of the end user. These descriptions are typically structured as short, simple sentences that identify who the user is, what action they need to take, and what objective they are trying to accomplish. This method translates technical goals into functional scenarios that teams use to guide design and development workflows.
+
+### Stakeholder Interviews
+This involves conducting structured, one-on-one conversations with project participants, clients, and end users to gather detailed information about their specific needs. During these sessions, project managers ask targeted questions to identify functional parameters, operational constraints, and individual expectations for the final outcome. The collected data is then documented and used to establish the baseline criteria for the project plan.
+
+### Brainstorming
+This involves gathering a group of team members and stakeholders to generate a large volume of ideas and potential solutions for a project. Participants share thoughts freely without immediate evaluation or criticism, allowing for a wide range of possibilities to be documented. The collected ideas are later categorized, reviewed, and filtered to extract the specific requirements that will inform the project scope.
+
+### Mind mapping
+This utilizes a visual diagram to organize information, ideas, and project requirements around a central theme. Teams place the primary project goal at the center of the map and draw radiating branches to represent major categories, which then break down further into specific sub-tasks or needs. This non-linear layout is used to document complex relationships and dependencies between different components of the project scope.
+
+### Document/Codebase Analysis
+This involves reviewing existing materials—such as published research, past datasets, technical documentation, or legacy software—to gather background information before starting new work. Teams analyze these artifacts to identify established methods, uncover existing limitations, and understand how previous systems or studies were built. By auditing these resources, the team establishes a clear starting point and defines the specific requirements needed for the upcoming project.
+
+### Observation
+This involves directly watching and recording individuals as they perform tasks, follow workflows, or interact with systems in their natural environment. The observer documents specific behaviors, operational processes, and environmental variables without intervening or manipulating the situation. The resulting qualitative and quantitative data provides empirical evidence of actual practices to inform the project's baseline requirements.
+
+### Prototyping
+This involves constructing preliminary, scaled-down models or digital mockups of a proposed system, product, or process to test specific functional concepts. These iterations range from low-fidelity wireframes to high-fidelity working samples that replicate key aspects of the final design. The model is subjected to evaluation and testing, allowing teams to gather empirical data on design viability and refine operational requirements prior to full-scale development.

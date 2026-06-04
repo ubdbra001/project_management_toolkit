@@ -1,0 +1,19 @@
+---
+title: "Collaboration Management"
+---
+This covers how you interact with the people who have a direct interest in your work, such as project leads, collaborators, or end-users. It involves keeping them updated and ensuring everyone agrees on the project's goals and overall direction.
+
+### Meeting Minutes
+This involves writing down a quick, accurate record of what was discussed, decided, and assigned during a team conversation. Instead of a long transcript, this document acts as a clear summary that highlights final agreements and lists exactly who is responsible for which next steps. Sharing these notes right after a meeting ensures that anyone who missed the discussion can catch up instantly and keeps everyone on the same page. It serves as a reliable reference point that prevents misunderstandings and keeps the team moving forward together.
+
+### Roles and Responsibilities Charter
+This involves creating a clear, shared agreement that outlines each team member's specific duties and areas of focus on a project. It explicitly maps out who is leading particular tasks, who owns different pieces of work, and who should be consulted before major changes are made. By clarifying these expectations early on, you eliminate confusion about who to turn to for specific technical questions or decisions. It acts as a helpful guide that keeps the team coordinated while allowing individuals to work independently and efficiently.
+
+### Communication Plan/Agreement
+This establishes a formal framework that details how information will be distributed, managed, and updated throughout the project lifecycle. It defines the specific communication channels (such as progress reports, synchronous meetings, or shared documentation repositories), the frequency of updates, the target audience for each message, and the escalation paths for resolving issues. By creating this structured agreement, teams ensure all stakeholders receive consistent information, aligning expectations and minimizing communication gaps.
+
+### Stakeholder Map
+This involves creating a simple visual chart that identifies everyone affected by your project and groups them by how involved they need to be. It helps you see at a glance who needs detailed, regular updates(e.g. core research partners or project leads) versus who only needs a high-level summary every few months. By mapping this out early, you can tailor your updates to the right people without overwhelming anyone with unnecessary emails. It is a highly effective artefact for managing your time and ensuring no critical partner is accidentally left in the dark.
+
+### Working Agreements (Team Charters)
+This involves hosting a short kickoff session where the team explicitly decides and writes down how they want to behave and work together. The group agrees on practical ground rules, such as core working hours, how quickly people are expected to reply to messages, and how to respectfully handle disagreements. By co-creating these cultural norms before the work gets intense, you prevent friction and build immediate trust among contributors. It serves as a foundational artefact that keeps team dynamics smooth, respectful, and predictable.

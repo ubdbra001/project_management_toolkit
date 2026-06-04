@@ -1,0 +1,33 @@
+---
+title: "The Toolkit"
+---
+The project management toolkit is broken down into 9 broadly different categories that cover the key areas of project management. Each category contains several strategies that can be used to manage that aspect of a project.
+
+Be aware: The categories and strategies listed are not exhaustive, may overlap, and may not map onto your experiences of managing projects. They are intended to be an illustrative starting point.
+
+## Requirements Gathering
+This involves identifying the specific goals and practical needs of a project before the hands-on work begins. It focuses on taking broad ideas and turning them into a clear list of what actually needs to be built or achieved.
+
+## Scope Management
+This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It also involves the process of evaluating new requests and adapting the original plan when circumstances shift unexpectedly.
+
+## Task Planning
+This involves taking a project and dividing it into smaller individual tasks. It focuses on how these pieces of work are organized so they can be assigned and tracked through to completion.
+
+## Timeline Management
+This focuses on scheduling individual tasks and setting target dates for the work. It involves mapping out a realistic schedule to ensure that different phases coordinate properly with major project milestones.
+
+## Progress Reporting
+This is the practice of sharing regular updates about the current status of your work. It provides visibility to others regarding which tasks are finished, what is currently being worked on, and what is coming next.
+
+## Collaboration Management
+This covers how you interact with the people who have a direct interest in your work, such as project leads, collaborators, or end-users. It involves keeping them updated and ensuring everyone agrees on the project's goals and overall direction.
+
+## Risk Management
+This involves identifying potential problems, technical hurdles, or delays that could impact the work. It also includes preparing alternative plans and responses to address these issues if they actually occur.
+
+## Project Knowledge Management
+This focuses on the continuous accumulation and organization of project knowledge, including context, decisions, methods, code, and data. The aim is to create an accessible history that enables others to effectively understand, reproduce, and engage with the work at any stage.
+
+## Project Review and Wrap-up
+This involves finishing up a completed project or major milestone and looking back at how the work went. It focuses on taking care of final closing tasks, and figuring out how to improve your team's workflow for next time.

@@ -1,7 +1,5 @@
 ---
-title: "project_management_toolkit"
+title: "Project Management Toolkit for digital Technical Research Professionals (dRTPs)"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Placeholder text
