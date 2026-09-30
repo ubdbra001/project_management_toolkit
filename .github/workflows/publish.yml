@@ -17,7 +17,27 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render and Publish
+      - name: Install R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.6.1'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libuv1-dev
+
+      - name: Install R Dependencies
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+
+      - name: Render Site (Local test with act)
+        if: ${{ env.ACT }}
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Render and Publish (GitHub)
+        if: ${{ !env.ACT }}
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
