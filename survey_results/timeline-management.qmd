@@ -1,0 +1,12 @@
+---
+title: "Timeline Management"
+---
+```{r set-category}
+#| echo: false
+#| warning: false
+
+category <- "timeline"
+```
+
+{{< include _base-page.qmd >}}
+

@@ -1,0 +1,12 @@
+---
+title: "Project Knowledge Management"
+---
+```{r set-category}
+#| echo: false
+#| warning: false
+
+category <- "knowledge"
+```
+
+{{< include _base-page.qmd >}}
+

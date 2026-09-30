@@ -1,0 +1,12 @@
+---
+title: "Risk Management"
+---
+```{r set-category}
+#| echo: false
+#| warning: false
+
+category <- "risk"
+```
+
+{{< include _base-page.qmd >}}
+

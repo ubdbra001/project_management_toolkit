@@ -1,0 +1,11 @@
+---
+title: "Progress Reporting"
+---
+```{r set-category}
+#| echo: false
+#| warning: false
+
+category <- "reporting"
+```
+
+{{< include _base-page.qmd >}}

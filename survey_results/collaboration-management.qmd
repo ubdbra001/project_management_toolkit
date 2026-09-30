@@ -1,0 +1,12 @@
+---
+title: "Collaboration Management"
+---
+```{r set-category}
+#| echo: false
+#| warning: false
+
+category <- "collab"
+```
+
+{{< include _base-page.qmd >}}
+

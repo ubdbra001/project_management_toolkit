@@ -1,0 +1,13 @@
+```{r setup}
+#| include: false
+
+library(stringr)
+source("scripts/plot_functions.R")
+
+responses_path <- "data/PMP_survey_responses_clean.parquet"
+codebook_path <- "data/PMP_survey_codebook.tsv"
+
+responses <- arrow::read_parquet(responses_path)
+codebook <- readr::read_tsv(codebook_path)
+
+```
