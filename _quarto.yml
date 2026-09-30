@@ -11,6 +11,8 @@ website:
         href: index.qmd
       - text: "The Toolkit"
         href: toolkit/index.qmd
+      - text: "Survey Results"
+        href: survey_results/index.qmd
       - text: "About the Project"
         href: about.qmd
   sidebar:
@@ -39,6 +41,33 @@ website:
           href: toolkit/knowledge-management.qmd
         - text: "Project Review and Wrap-Up"
           href: toolkit/review.qmd
+    - id: survey-results
+      title: "Survey Results"
+      align: left
+      style: "docked"
+      contents:
+        - text: "Overview"
+          href: survey_results/index.qmd
+        - text: "Working Context"
+          href: survey_results/context.qmd
+        - text: "Requirements Gathering"
+          href: survey_results/requirements.qmd
+        - text: "Scope Management"
+          href: survey_results/scope-management.qmd
+        - text: "Collaboration Management"
+          href: survey_results/collaboration-management.qmd
+        - text: "Task Planning"
+          href: survey_results/task-planning.qmd
+        - text: "Timeline Management"
+          href: survey_results/timeline-management.qmd
+        - text: "Progess Reporting"
+          href: survey_results/reporting.qmd
+        - text: "Risk Management"
+          href: survey_results/risk-management.qmd
+        - text: "Project Knowledge Management"
+          href: survey_results/knowledge-management.qmd
+        - text: "Project Review and Wrap-Up"
+          href: survey_results/review.qmd
 
 
 
