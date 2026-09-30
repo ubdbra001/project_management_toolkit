@@ -1,18 +1,12 @@
 ---
 title: "Collaboration Management"
 ---
-{{< include _setup.qmd >}}
-
-```{r}
+```{r set-category}
 #| echo: false
 #| warning: false
 
 category <- "collab"
-
-plot_bars(str_glue("{category}_frequency"), "Frequency")
-plot_bars(str_glue("{category}_consequences"), "Significance")
-plot_bars(str_glue("{category}_approach"))
-plot_strats(str_glue("{category}_current_strats"))
-plot_bars(str_glue("{category}_prev_use"))
-plot_bars(str_glue("{category}_adopting"))
 ```
+
+{{< include _base-page.qmd >}}
+
