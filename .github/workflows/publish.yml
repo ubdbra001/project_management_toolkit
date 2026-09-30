@@ -32,12 +32,7 @@ jobs:
         with:
           cache-version: 1
 
-      - name: Render Site (Local test with act)
-        if: ${{ env.ACT }}
-        uses: quarto-dev/quarto-actions/render@v2
-
       - name: Render and Publish (GitHub)
-        if: ${{ !env.ACT }}
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages

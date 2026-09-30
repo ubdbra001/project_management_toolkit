@@ -37,6 +37,7 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
 
       - name: Deploy PR Preview to GitHub Pages
+        if: ${{ !env.ACT }}
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: _site
