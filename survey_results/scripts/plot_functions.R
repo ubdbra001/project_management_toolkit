@@ -6,8 +6,8 @@ library(tidyr)
 
 plot_bars <- function(question_id, x_label = NULL){
   
-  plot_title <- codebook$question_text[codebook$col_id==question_id]
-  plot_subtitle <- codebook$question_additional_text[codebook$col_id==question_id]
+  plot_title <- codebook$question_text[codebook$question_id==question_id]
+  plot_subtitle <- codebook$question_additional_text[codebook$question_id==question_id]
   
   responses |>
     select(matches(question_id)) |>
@@ -47,7 +47,7 @@ plot_strats <- function(question_id){
     mutate(strats = str_wrap(strats, 25)) # War the text for plot labels
   
   plot_title <- stringr::str_remove(
-    codebook$question_text[codebook$col_id==question_id],
+    codebook$question_text[codebook$question_id==question_id],
     ".*: ")
   
   ggplot(res, aes( x = n, y = reorder(strats, n))) +
@@ -59,7 +59,7 @@ plot_strats <- function(question_id){
       y = NULL,
       x = NULL
     ) +
-    theme_light(base_size = 16) +
+    theme_light(base_size = 12) +
     theme(
       plot.title = element_textbox_simple(face = "bold", margin = unit(c(7, 0, 10, 0), "pt")),
       plot.title.position = "plot",
