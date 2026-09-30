@@ -1,0 +1,31 @@
+{{< include _setup.qmd >}}
+
+```{r frequency}
+#| echo: false
+#| warning: false
+plot_bars(str_glue("{category}_frequency"), "Frequency")
+```
+
+```{r consequences}
+#| echo: false
+#| warning: false
+plot_bars(str_glue("{category}_consequences"), "Significance")
+```
+
+{{< include _consequences.qmd >}}
+
+```{r approach}
+#| echo: false
+#| warning: false
+plot_bars(str_glue("{category}_approach"))
+```
+{{< include _approaches.qmd >}}
+
+```{r rest-of-qs}
+#| echo: false
+#| warning: false
+plot_strats(str_glue("{category}_current_strats"))
+plot_bars(str_glue("{category}_prev_use"))
+plot_bars(str_glue("{category}_adopting"))
+```
+
