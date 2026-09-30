@@ -62,6 +62,50 @@
     ]
   },
   {
+    "objectID": "survey_results/scope-management.html",
+    "href": "survey_results/scope-management.html",
+    "title": "Scope Management",
+    "section": "",
+    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "crumbs": [
+      "Survey Results",
+      "Scope Management"
+    ]
+  },
+  {
+    "objectID": "survey_results/timeline-management.html",
+    "href": "survey_results/timeline-management.html",
+    "title": "Timeline Management",
+    "section": "",
+    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "crumbs": [
+      "Survey Results",
+      "Timeline Management"
+    ]
+  },
+  {
+    "objectID": "survey_results/risk-management.html",
+    "href": "survey_results/risk-management.html",
+    "title": "Risk Management",
+    "section": "",
+    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "crumbs": [
+      "Survey Results",
+      "Risk Management"
+    ]
+  },
+  {
+    "objectID": "survey_results/knowledge-management.html",
+    "href": "survey_results/knowledge-management.html",
+    "title": "Project Knowledge Management",
+    "section": "",
+    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "crumbs": [
+      "Survey Results",
+      "Project Knowledge Management"
+    ]
+  },
+  {
     "objectID": "survey_results/index.html",
     "href": "survey_results/index.html",
     "title": "Results Overview",
@@ -103,6 +147,61 @@
     "crumbs": [
       "Survey Results",
       "Overview"
+    ]
+  },
+  {
+    "objectID": "survey_results/task-planning.html",
+    "href": "survey_results/task-planning.html",
+    "title": "Task Planning",
+    "section": "",
+    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "crumbs": [
+      "Survey Results",
+      "Task Planning"
+    ]
+  },
+  {
+    "objectID": "survey_results/requirements.html",
+    "href": "survey_results/requirements.html",
+    "title": "Requirements Gathering",
+    "section": "",
+    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "crumbs": [
+      "Survey Results",
+      "Requirements Gathering"
+    ]
+  },
+  {
+    "objectID": "survey_results/reporting.html",
+    "href": "survey_results/reporting.html",
+    "title": "Progress Reporting",
+    "section": "",
+    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "crumbs": [
+      "Survey Results",
+      "Progess Reporting"
+    ]
+  },
+  {
+    "objectID": "survey_results/collaboration-management.html",
+    "href": "survey_results/collaboration-management.html",
+    "title": "Collaboration Management",
+    "section": "",
+    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "crumbs": [
+      "Survey Results",
+      "Collaboration Management"
+    ]
+  },
+  {
+    "objectID": "survey_results/review.html",
+    "href": "survey_results/review.html",
+    "title": "Project Review and Wrap-up",
+    "section": "",
+    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "crumbs": [
+      "Survey Results",
+      "Project Review and Wrap-Up"
     ]
   },
   {
