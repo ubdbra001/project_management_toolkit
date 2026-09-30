@@ -99,7 +99,7 @@
     "href": "survey_results/index.html#survey-data",
     "title": "Results Overview",
     "section": "Survey data",
-    "text": "Survey data\nRaw data is TSV format and Cleaned data in parquet format are both available for download.\nThese datasets have had the responses from the demographic information section of the survey removed to preserve respondent anonymity.",
+    "text": "Survey data\nRaw data (TSV format) and Cleaned data (parquet format) are both available for download.\nThese datasets have had the responses from the demographic information section of the survey removed to preserve respondent anonymity.",
     "crumbs": [
       "Survey Results",
       "Overview"
