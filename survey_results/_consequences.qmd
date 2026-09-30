@@ -1,0 +1,7 @@
+Consequence option definitions:
+
+**Critical** - Total failure; primary goals become impossible to achieve.  
+**Major** - Severe disruptions requiring significant rework or loss of features.  
+**Moderate** - Noticeable issues requiring specific fixes or causing minor delays.  
+**Minor** - Small inconveniences easily managed without impacting the final outcome.  
+**Negligible** - Barely any impact; no measurable effect on the project.  
