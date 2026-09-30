@@ -1,0 +1,19 @@
+---
+title: "Working Context"
+---
+
+{{< include _setup.qmd >}}
+
+```{r}
+#| echo: false
+#| warning: false
+
+plot_bars("n_projects", "Number of Projects")
+plot_bars("n_simultaneous", "Number of Simultaneous Projects")
+plot_bars("proj_duration", "Project Duration (Months)")
+plot_bars("team_size", "Number of Team Members")
+plot_bars("drtps_in_team", "Number of dRPTs")
+plot_bars("pmp_in_team", "Number of PMPs")
+plot_bars("existing_pm_strats", "Number of Projects")
+```
+

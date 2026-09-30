@@ -1,0 +1,19 @@
+---
+title: "Project Review and Wrap-up"
+---
+
+{{< include _setup.qmd >}}
+
+```{r}
+#| echo: false
+#| warning: false
+
+category <- "review"
+
+plot_bars(str_glue("{category}_frequency"), "Frequency")
+plot_bars(str_glue("{category}_consequences"), "Significance")
+plot_bars(str_glue("{category}_approach"))
+plot_strats(str_glue("{category}_current_strats"))
+plot_bars(str_glue("{category}_prev_use"))
+plot_bars(str_glue("{category}_adopting"))
+```

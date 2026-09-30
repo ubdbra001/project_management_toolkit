@@ -1,0 +1,22 @@
+---
+title: "Results Overview"
+---
+These pages present the result of a survey distributed to the digital research technical professional (dRTP) community at the University of Sheffield in June and July 2026.
+
+The survey was posted in the University of Sheffield RSE Slack, and presentations were given to several of the centralised dRTP teams at the university (e.g. the RSE team, the R&I team in central IT service, Data connect team) to encourage participation.
+
+## The Survey
+
+The survey was broken up into 3 main parts:  
+1. **Work context** - Information about the number and duration of projects being undertaken by the respondents, as well as the team size and make up for those projects.
+2. **Project management practices** - Information about the how often the respondents encounter the listed aspects of project management in their role, the strategies they use to mitigate these aspects, and the perceived impact on the project if these aspects are not managed.
+3. **Demographic information** - Information about the participants, specifically their role, experience and seniority. Information about Gender Identity and Race was also collected, but primarily as a means to form diverse focus groups for follow up.
+
+
+## The Respondents
+
+In total 15 people filled out the survey, detailing how their usage and views on the aspects of project management and the accompanying strategies. Of those 15:
+ - All were in some kind of centralised dRTP team (i.e. none were dRTPs embedded in a research team)  
+ - The majority (12) were RSEs.  
+ - 5 were in a senior or leadership role.    
+ - 9 had five or fewer years of experience in a primarily dRTP role, while 2 had fifteen or more years of experience.
