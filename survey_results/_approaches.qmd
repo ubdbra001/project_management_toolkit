@@ -1,5 +1,0 @@
-Approach option definitions:
-
-**Structured** - I use specific strategies or frameworks.  
-**Ad-hoc** - I handle it informally on a case-by-case basis without specific strategies.  
-**Not Managed** - I do not currently address or manage this aspect.  

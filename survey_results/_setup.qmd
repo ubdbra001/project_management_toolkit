@@ -1,7 +1,6 @@
 ```{r setup}
 #| include: false
 
-library(stringr)
 source("scripts/plot_functions.R")
 
 responses_path <- "data/PMP_survey_responses_clean.parquet"

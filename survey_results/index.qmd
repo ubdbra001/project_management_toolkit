@@ -35,3 +35,11 @@ In total 15 people filled out the survey, detailing how their usage and views on
 
 [Raw data (TSV format)](data/PMP_survey_responses_raw.tsv) and [Cleaned data (parquet format)](data/PMP_survey_responses_clean.parquet) are both available for download.  
 These datasets have had the responses from the demographic information section of the survey removed to preserve respondent anonymity.
+
+## Citing this work
+
+The survey and data are both available in ORDA: [10.15131/shef.data.34032759](https://doi.org/10.15131/shef.data.34032759)
+
+If you reference or use the survey or the data in your work, please cite them as:
+
+> Brady, D. (2026). Exploring the usage of project management practices among digital research technical professionals (dRTPs) at the University of Sheﬀield - Survey [Dataset]. The University of Sheffield. https://doi.org/10.15131/SHEF.DATA.34032759 

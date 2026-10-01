@@ -1,0 +1,61 @@
+---
+title: Aspects of Project Management
+---
+
+{{< include _setup.qmd >}}
+
+## How frequently is this aspect of project management a necessary part of your typical project workflow?
+
+```{r frequency}
+#| echo: false
+#| warning: false
+plot_props("frequency", "Frequency")
+```
+
+## In your view, how significant are the consequences for project outcomes when this aspect of project management is not addressed?
+
+```{r consequences}
+#| echo: false
+#| warning: false
+plot_props("consequences", "Significance")
+```
+
+**Critical** - Total failure; primary goals become impossible to achieve.  
+**Major** - Severe disruptions requiring significant rework or loss of features.  
+**Moderate** - Noticeable issues requiring specific fixes or causing minor delays.  
+**Minor** - Small inconveniences easily managed without impacting the final outcome.  
+**Negligible** - Barely any impact; no measurable effect on the project.  
+
+## When this aspect arises, which best describes your typical approach?
+
+```{r approach}
+#| echo: false
+#| warning: false
+plot_props("approach", "Approach")
+```
+
+**Structured** - I use specific strategies or frameworks.  
+**Ad-hoc** - I handle it informally on a case-by-case basis without specific strategies.  
+**Not Managed** - I do not currently address or manage this aspect.  
+
+## Have you used a specific, structured strategy for this aspect in the past?
+
+If you responded "Ad-hoc" or ""Not Managed"
+
+```{r prev-use}
+#| echo: false
+#| warning: false
+
+plot_props("prev_use", "Used a structured strategy previously")
+```
+
+## Would you be open to adopting a structured strategy/approach for this in the future?
+
+If you responded "Ad-hoc" or "Not Managed"
+
+```{r adopting}
+#| echo: false
+#| warning: false
+
+plot_props("adopting", "Open to adopting a structured strategy")
+```

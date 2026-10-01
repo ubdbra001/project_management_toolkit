@@ -36,6 +36,47 @@ plot_bars <- function(question_id, x_label = NULL){
     )
 }
 
+plot_props <- function(q_suffix, legend_label){
+  freq_levels <- c("reqs", "scope", "planning" , "timeline", "reporting", "collab", "risk", "knowledge", "review")
+  freq_labels <- str_wrap(
+    c("Requirements Gathering", "Scope Management", "Task Planning", "Timeline Management", "Progress Reporting", "Collaboration Management", "Risk Management", "Project Knowledge Management", "Project Review and Wrap-up"),
+    20
+  )
+  
+  legend_label <- str_wrap(legend_label, 20)
+
+  transformed_resps <- responses |>
+    select(ends_with(q_suffix)) |>
+    pivot_longer(everything()) |>
+    drop_na() |>
+    mutate(name = str_remove(name, "_.*")) |>
+    mutate(name = factor(name, levels = freq_levels, labels = freq_labels, ordered = TRUE)) |>
+    count(name, value)
+  
+  
+  ggplot(transformed_resps, aes(x = n, y = name, fill = value)) +
+    geom_col(colour = "black", linewidth = 0.2) +
+    geom_text(aes(label = n), colour = "gray30", position = position_stack(vjust = 0.5), size = 3) + 
+    scale_y_discrete(limits=rev) +
+    scale_x_continuous(limits = c(0, 15)) +
+    theme_minimal(base_size = 12) +
+    labs(
+      fill = legend_label,
+      y = "Aspect of Project Management",
+      x = NULL
+    ) + 
+    guides(fill = guide_legend(reverse = TRUE)) + 
+    theme(
+      plot.margin = margin(15, 10, 10, 15),
+      panel.grid = element_blank(),
+      axis.text.y = element_textbox(),
+      axis.title.y = element_text(margin = margin(r = 10, unit = "pt")),
+      legend.position = "bottom",
+      legend.location = "plot"
+    )
+  
+}
+
 plot_strats <- function(question_id){
   # Split the character string into individual responses
   # Based on commas in the string, but not ones in parentheses
