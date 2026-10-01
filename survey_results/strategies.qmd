@@ -1,0 +1,75 @@
+---
+title: "Current Strategies Used"
+---
+
+{{< include _setup.qmd >}}
+
+## Requirements Gathering
+```{r requirements}
+#| echo: false
+#| warning: false
+category <- "reqs"
+plot_strats(str_glue("{category}_current_strats"))
+```
+
+## Scope Management
+```{r scope}
+#| echo: false
+#| warning: false
+category <- "scope"
+plot_strats(str_glue("{category}_current_strats"))
+```
+
+## Task Planning
+```{r planning}
+#| echo: false
+#| warning: false
+category <- "planning"
+plot_strats(str_glue("{category}_current_strats"))
+```
+
+## Timeline Management
+```{r timeline}
+#| echo: false
+#| warning: false
+category <- "timeline"
+plot_strats(str_glue("{category}_current_strats"))
+```
+
+## Progress Reporting
+```{r reporting}
+#| echo: false
+#| warning: false
+category <- "reporting"
+plot_strats(str_glue("{category}_current_strats"))
+```
+
+## Collaboration Management
+```{r collab}
+#| echo: false
+#| warning: false
+category <- "collab"
+plot_strats(str_glue("{category}_current_strats"))
+```
+
+## Risk Management
+```{r risk}
+#| echo: false
+#| warning: false
+category <- "risk"
+plot_strats(str_glue("{category}_current_strats"))
+```
+## Project Knowledge Management
+```{r knowledge}
+#| echo: false
+#| warning: false
+category <- "knowledge"
+plot_strats(str_glue("{category}_current_strats"))
+```
+## Project Review and Wrap-up
+```{r review}
+#| echo: false
+#| warning: false
+category <- "review"
+plot_strats(str_glue("{category}_current_strats"))
+```

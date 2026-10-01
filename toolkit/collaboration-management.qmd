@@ -3,6 +3,11 @@ title: "Collaboration Management"
 ---
 This covers how you interact with the people who have a direct interest in your work, such as project leads, collaborators, or end-users. It involves keeping them updated and ensuring everyone agrees on the project's goals and overall direction.
 
+::: {.callout-note collapse="true"}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
 ### Meeting Minutes
 This involves writing down a quick, accurate record of what was discussed, decided, and assigned during a team conversation. Instead of a long transcript, this document acts as a clear summary that highlights final agreements and lists exactly who is responsible for which next steps. Sharing these notes right after a meeting ensures that anyone who missed the discussion can catch up instantly and keeps everyone on the same page. It serves as a reliable reference point that prevents misunderstandings and keeps the team moving forward together.
 
