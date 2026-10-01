@@ -62,47 +62,91 @@
     ]
   },
   {
-    "objectID": "survey_results/scope-management.html",
-    "href": "survey_results/scope-management.html",
-    "title": "Scope Management",
-    "section": "",
-    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "objectID": "survey_results/strategies.html#scope-management",
+    "href": "survey_results/strategies.html#scope-management",
+    "title": "Current Strategies Used",
+    "section": "Scope Management",
+    "text": "Scope Management",
     "crumbs": [
       "Survey Results",
-      "Scope Management"
+      "Current Strategies Used"
     ]
   },
   {
-    "objectID": "survey_results/timeline-management.html",
-    "href": "survey_results/timeline-management.html",
-    "title": "Timeline Management",
-    "section": "",
-    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "objectID": "survey_results/strategies.html#task-planning",
+    "href": "survey_results/strategies.html#task-planning",
+    "title": "Current Strategies Used",
+    "section": "Task Planning",
+    "text": "Task Planning",
     "crumbs": [
       "Survey Results",
-      "Timeline Management"
+      "Current Strategies Used"
     ]
   },
   {
-    "objectID": "survey_results/risk-management.html",
-    "href": "survey_results/risk-management.html",
-    "title": "Risk Management",
-    "section": "",
-    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "objectID": "survey_results/strategies.html#timeline-management",
+    "href": "survey_results/strategies.html#timeline-management",
+    "title": "Current Strategies Used",
+    "section": "Timeline Management",
+    "text": "Timeline Management",
     "crumbs": [
       "Survey Results",
-      "Risk Management"
+      "Current Strategies Used"
     ]
   },
   {
-    "objectID": "survey_results/knowledge-management.html",
-    "href": "survey_results/knowledge-management.html",
-    "title": "Project Knowledge Management",
-    "section": "",
-    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "objectID": "survey_results/strategies.html#progress-reporting",
+    "href": "survey_results/strategies.html#progress-reporting",
+    "title": "Current Strategies Used",
+    "section": "Progress Reporting",
+    "text": "Progress Reporting",
     "crumbs": [
       "Survey Results",
-      "Project Knowledge Management"
+      "Current Strategies Used"
+    ]
+  },
+  {
+    "objectID": "survey_results/strategies.html#collaboration-management",
+    "href": "survey_results/strategies.html#collaboration-management",
+    "title": "Current Strategies Used",
+    "section": "Collaboration Management",
+    "text": "Collaboration Management",
+    "crumbs": [
+      "Survey Results",
+      "Current Strategies Used"
+    ]
+  },
+  {
+    "objectID": "survey_results/strategies.html#risk-management",
+    "href": "survey_results/strategies.html#risk-management",
+    "title": "Current Strategies Used",
+    "section": "Risk Management",
+    "text": "Risk Management",
+    "crumbs": [
+      "Survey Results",
+      "Current Strategies Used"
+    ]
+  },
+  {
+    "objectID": "survey_results/strategies.html#project-knowledge-management",
+    "href": "survey_results/strategies.html#project-knowledge-management",
+    "title": "Current Strategies Used",
+    "section": "Project Knowledge Management",
+    "text": "Project Knowledge Management",
+    "crumbs": [
+      "Survey Results",
+      "Current Strategies Used"
+    ]
+  },
+  {
+    "objectID": "survey_results/strategies.html#project-review-and-wrap-up",
+    "href": "survey_results/strategies.html#project-review-and-wrap-up",
+    "title": "Current Strategies Used",
+    "section": "Project Review and Wrap-up",
+    "text": "Project Review and Wrap-up",
+    "crumbs": [
+      "Survey Results",
+      "Current Strategies Used"
     ]
   },
   {
@@ -150,58 +194,58 @@
     ]
   },
   {
-    "objectID": "survey_results/task-planning.html",
-    "href": "survey_results/task-planning.html",
-    "title": "Task Planning",
-    "section": "",
-    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "objectID": "survey_results/index.html#citing-this-work",
+    "href": "survey_results/index.html#citing-this-work",
+    "title": "Results Overview",
+    "section": "Citing this work",
+    "text": "Citing this work\nThe survey and data are both available in ORDA: 10.15131/shef.data.34032759\nIf you reference or use the survey or the data in your work, please cite them as:\n\nBrady, D. (2026). Exploring the usage of project management practices among digital research technical professionals (dRTPs) at the University of Sheﬀield - Survey [Dataset]. The University of Sheffield. https://doi.org/10.15131/SHEF.DATA.34032759",
     "crumbs": [
       "Survey Results",
-      "Task Planning"
+      "Overview"
     ]
   },
   {
-    "objectID": "survey_results/requirements.html",
-    "href": "survey_results/requirements.html",
-    "title": "Requirements Gathering",
-    "section": "",
-    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "objectID": "survey_results/aspects.html#in-your-view-how-significant-are-the-consequences-for-project-outcomes-when-this-aspect-of-project-management-is-not-addressed",
+    "href": "survey_results/aspects.html#in-your-view-how-significant-are-the-consequences-for-project-outcomes-when-this-aspect-of-project-management-is-not-addressed",
+    "title": "Aspects of Project Management",
+    "section": "In your view, how significant are the consequences for project outcomes when this aspect of project management is not addressed?",
+    "text": "In your view, how significant are the consequences for project outcomes when this aspect of project management is not addressed?\n\n\n\n\n\n\n\n\n\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.",
     "crumbs": [
       "Survey Results",
-      "Requirements Gathering"
+      "Aspects of Project Management"
     ]
   },
   {
-    "objectID": "survey_results/reporting.html",
-    "href": "survey_results/reporting.html",
-    "title": "Progress Reporting",
-    "section": "",
-    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "objectID": "survey_results/aspects.html#when-this-aspect-arises-which-best-describes-your-typical-approach",
+    "href": "survey_results/aspects.html#when-this-aspect-arises-which-best-describes-your-typical-approach",
+    "title": "Aspects of Project Management",
+    "section": "When this aspect arises, which best describes your typical approach?",
+    "text": "When this aspect arises, which best describes your typical approach?\n\n\n\n\n\n\n\n\n\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
     "crumbs": [
       "Survey Results",
-      "Progess Reporting"
+      "Aspects of Project Management"
     ]
   },
   {
-    "objectID": "survey_results/collaboration-management.html",
-    "href": "survey_results/collaboration-management.html",
-    "title": "Collaboration Management",
-    "section": "",
-    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "objectID": "survey_results/aspects.html#have-you-used-a-specific-structured-strategy-for-this-aspect-in-the-past",
+    "href": "survey_results/aspects.html#have-you-used-a-specific-structured-strategy-for-this-aspect-in-the-past",
+    "title": "Aspects of Project Management",
+    "section": "Have you used a specific, structured strategy for this aspect in the past?",
+    "text": "Have you used a specific, structured strategy for this aspect in the past?\nIf you responded “Ad-hoc” or ““Not Managed”",
     "crumbs": [
       "Survey Results",
-      "Collaboration Management"
+      "Aspects of Project Management"
     ]
   },
   {
-    "objectID": "survey_results/review.html",
-    "href": "survey_results/review.html",
-    "title": "Project Review and Wrap-up",
-    "section": "",
-    "text": "Consequence option definitions:\nCritical - Total failure; primary goals become impossible to achieve.\nMajor - Severe disruptions requiring significant rework or loss of features.\nModerate - Noticeable issues requiring specific fixes or causing minor delays.\nMinor - Small inconveniences easily managed without impacting the final outcome.\nNegligible - Barely any impact; no measurable effect on the project.\n\n\n\n\n\n\n\n\n\n\nApproach option definitions:\nStructured - I use specific strategies or frameworks.\nAd-hoc - I handle it informally on a case-by-case basis without specific strategies.\nNot Managed - I do not currently address or manage this aspect.",
+    "objectID": "survey_results/aspects.html#would-you-be-open-to-adopting-a-structured-strategyapproach-for-this-in-the-future",
+    "href": "survey_results/aspects.html#would-you-be-open-to-adopting-a-structured-strategyapproach-for-this-in-the-future",
+    "title": "Aspects of Project Management",
+    "section": "Would you be open to adopting a structured strategy/approach for this in the future?",
+    "text": "Would you be open to adopting a structured strategy/approach for this in the future?\nIf you responded “Ad-hoc” or “Not Managed”",
     "crumbs": [
       "Survey Results",
-      "Project Review and Wrap-Up"
+      "Aspects of Project Management"
     ]
   },
   {
@@ -341,7 +385,7 @@
     "href": "toolkit/collaboration-management.html",
     "title": "Collaboration Management",
     "section": "",
-    "text": "This covers how you interact with the people who have a direct interest in your work, such as project leads, collaborators, or end-users. It involves keeping them updated and ensuring everyone agrees on the project’s goals and overall direction.\n\nMeeting Minutes\nThis involves writing down a quick, accurate record of what was discussed, decided, and assigned during a team conversation. Instead of a long transcript, this document acts as a clear summary that highlights final agreements and lists exactly who is responsible for which next steps. Sharing these notes right after a meeting ensures that anyone who missed the discussion can catch up instantly and keeps everyone on the same page. It serves as a reliable reference point that prevents misunderstandings and keeps the team moving forward together.\n\n\nRoles and Responsibilities Charter\nThis involves creating a clear, shared agreement that outlines each team member’s specific duties and areas of focus on a project. It explicitly maps out who is leading particular tasks, who owns different pieces of work, and who should be consulted before major changes are made. By clarifying these expectations early on, you eliminate confusion about who to turn to for specific technical questions or decisions. It acts as a helpful guide that keeps the team coordinated while allowing individuals to work independently and efficiently.\n\n\nCommunication Plan/Agreement\nThis establishes a formal framework that details how information will be distributed, managed, and updated throughout the project lifecycle. It defines the specific communication channels (such as progress reports, synchronous meetings, or shared documentation repositories), the frequency of updates, the target audience for each message, and the escalation paths for resolving issues. By creating this structured agreement, teams ensure all stakeholders receive consistent information, aligning expectations and minimizing communication gaps.\n\n\nStakeholder Map\nThis involves creating a simple visual chart that identifies everyone affected by your project and groups them by how involved they need to be. It helps you see at a glance who needs detailed, regular updates(e.g. core research partners or project leads) versus who only needs a high-level summary every few months. By mapping this out early, you can tailor your updates to the right people without overwhelming anyone with unnecessary emails. It is a highly effective artefact for managing your time and ensuring no critical partner is accidentally left in the dark.\n\n\nWorking Agreements (Team Charters)\nThis involves hosting a short kickoff session where the team explicitly decides and writes down how they want to behave and work together. The group agrees on practical ground rules, such as core working hours, how quickly people are expected to reply to messages, and how to respectfully handle disagreements. By co-creating these cultural norms before the work gets intense, you prevent friction and build immediate trust among contributors. It serves as a foundational artefact that keeps team dynamics smooth, respectful, and predictable.",
+    "text": "This covers how you interact with the people who have a direct interest in your work, such as project leads, collaborators, or end-users. It involves keeping them updated and ensuring everyone agrees on the project’s goals and overall direction.\n\n\n\n\n\n\nNote\n\n\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\nMeeting Minutes\nThis involves writing down a quick, accurate record of what was discussed, decided, and assigned during a team conversation. Instead of a long transcript, this document acts as a clear summary that highlights final agreements and lists exactly who is responsible for which next steps. Sharing these notes right after a meeting ensures that anyone who missed the discussion can catch up instantly and keeps everyone on the same page. It serves as a reliable reference point that prevents misunderstandings and keeps the team moving forward together.\n\n\nRoles and Responsibilities Charter\nThis involves creating a clear, shared agreement that outlines each team member’s specific duties and areas of focus on a project. It explicitly maps out who is leading particular tasks, who owns different pieces of work, and who should be consulted before major changes are made. By clarifying these expectations early on, you eliminate confusion about who to turn to for specific technical questions or decisions. It acts as a helpful guide that keeps the team coordinated while allowing individuals to work independently and efficiently.\n\n\nCommunication Plan/Agreement\nThis establishes a formal framework that details how information will be distributed, managed, and updated throughout the project lifecycle. It defines the specific communication channels (such as progress reports, synchronous meetings, or shared documentation repositories), the frequency of updates, the target audience for each message, and the escalation paths for resolving issues. By creating this structured agreement, teams ensure all stakeholders receive consistent information, aligning expectations and minimizing communication gaps.\n\n\nStakeholder Map\nThis involves creating a simple visual chart that identifies everyone affected by your project and groups them by how involved they need to be. It helps you see at a glance who needs detailed, regular updates(e.g. core research partners or project leads) versus who only needs a high-level summary every few months. By mapping this out early, you can tailor your updates to the right people without overwhelming anyone with unnecessary emails. It is a highly effective artefact for managing your time and ensuring no critical partner is accidentally left in the dark.\n\n\nWorking Agreements (Team Charters)\nThis involves hosting a short kickoff session where the team explicitly decides and writes down how they want to behave and work together. The group agrees on practical ground rules, such as core working hours, how quickly people are expected to reply to messages, and how to respectfully handle disagreements. By co-creating these cultural norms before the work gets intense, you prevent friction and build immediate trust among contributors. It serves as a foundational artefact that keeps team dynamics smooth, respectful, and predictable.",
     "crumbs": [
       "The Toolkit",
       "Collaboration Management"
