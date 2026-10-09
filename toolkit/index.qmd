@@ -12,7 +12,7 @@ This involves identifying the specific goals and practical needs of a project be
 This focuses on defining the specific limits of a project and identifying which tasks are excluded from the work. It also involves the process of evaluating new requests and adapting the original plan when circumstances shift unexpectedly.
 
 ## Task Planning
-This involves taking a project and dividing it into smaller individual tasks. It focuses on how these pieces of work are organized so they can be assigned and tracked through to completion.
+This involves taking a project and dividing it into smaller individual tasks. It focuses on how these pieces of work are organised so they can be assigned and tracked through to completion.
 
 ## Timeline Management
 This focuses on scheduling individual tasks and setting target dates for the work. It involves mapping out a realistic schedule to ensure that different phases coordinate properly with major project milestones.

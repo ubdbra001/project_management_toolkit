@@ -4,6 +4,11 @@ project:
 website:
   title: "Project Management Toolkit"
   page-navigation: true
+  page-footer:
+    right: |
+      Funded by:\
+      [![](/assets/images/discourse_logo.jpg){width=100px}](https://discourse-network.github.io/)
+    background: light
   navbar:
     search: true
     left:
@@ -15,6 +20,11 @@ website:
         href: survey_results/index.qmd
       - text: "About the Project"
         href: about.qmd
+    right:
+      - icon: envelope
+        url: mailto:daniel.brady@sheffield.ac.uk
+      - icon: github
+        url: https://github.com/ubdbra001/project_management_toolkit
   sidebar:
     - id: the-toolkit
       title: "The Toolkit"
@@ -33,7 +43,7 @@ website:
           href: toolkit/task-planning.qmd
         - text: "Timeline Management"
           href: toolkit/timeline-management.qmd
-        - text: "Progess Reporting"
+        - text: "Progress Reporting"
           href: toolkit/reporting.qmd
         - text: "Risk Management"
           href: toolkit/risk-management.qmd
