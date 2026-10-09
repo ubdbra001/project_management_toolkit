@@ -43,7 +43,7 @@ website:
           href: toolkit/task-planning.qmd
         - text: "Timeline Management"
           href: toolkit/timeline-management.qmd
-        - text: "Progess Reporting"
+        - text: "Progress Reporting"
           href: toolkit/reporting.qmd
         - text: "Risk Management"
           href: toolkit/risk-management.qmd
