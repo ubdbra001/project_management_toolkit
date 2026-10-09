@@ -4,6 +4,11 @@ project:
 website:
   title: "Project Management Toolkit"
   page-navigation: true
+  page-footer:
+    right: |
+      Funded by:\
+      [![](/assets/images/discourse_logo.jpg){width=100px}](https://discourse-network.github.io/)
+    background: light
   navbar:
     search: true
     left:
