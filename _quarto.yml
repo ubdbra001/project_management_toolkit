@@ -20,6 +20,11 @@ website:
         href: survey_results/index.qmd
       - text: "About the Project"
         href: about.qmd
+    right:
+      - icon: envelope
+        url: mailto:daniel.brady@sheffield.ac.uk
+      - icon: github
+        url: https://github.com/ubdbra001/project_management_toolkit
   sidebar:
     - id: the-toolkit
       title: "The Toolkit"
